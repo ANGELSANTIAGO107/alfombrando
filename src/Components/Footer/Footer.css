@@ -1,0 +1,24 @@
+.footer-div {
+    padding: 20px;
+    background-color: #000;
+    color: white;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+.footer-link {
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-link:hover {
+    color: #ccc;
+}
