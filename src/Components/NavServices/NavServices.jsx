@@ -22,18 +22,18 @@ function NavServices() {
         <div className="nav-services">
           {[
             {
-              id: 1,
+              id: "1",
               text: "Limpieza profunda de muebles, alfombras y vidrios",
             },
-            { id: 2, text: "Mantenimiento y restauración de pisos" },
+            { id: "2", text: "Mantenimiento y restauración de pisos" },
             {
-              id: 3,
+              id: "3",
               text: "Instalación de pisos SPC y SPC de click y laminados",
             },
-            { id: 4, text: "Instalación de persianas para tus ventanas" },
-            { id: 5, text: "Paredes con estilo, instalación de papel tapiz" },
+            { id: "4", text: "Instalación de persianas para tus ventanas" },
+            { id: "5", text: "Paredes con estilo, instalación de papel tapiz" },
             {
-              id: 6,
+              id: "6",
               text: "Tu hogar fresco con películas de protección solar",
             },
           ].map((service) => (
