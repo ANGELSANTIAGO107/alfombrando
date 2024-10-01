@@ -25,16 +25,32 @@ function NavServices() {
               id: "1",
               text: "Limpieza profunda de muebles, alfombras y vidrios",
             },
-            { id: "2", text: "Mantenimiento y restauración de pisos" },
+
             {
-              id: "3",
+              id: "2",
+              text: "instalacion de alfombras modulares y/o en rollo",
+            },
+            { id: "3", text: "Mantenimiento y restauración de pisos" },
+            {
+              id: "4",
               text: "Instalación de pisos SPC y SPC de click y laminados",
             },
-            { id: "4", text: "Instalación de persianas para tus ventanas" },
-            { id: "5", text: "Paredes con estilo, instalación de papel tapiz" },
             {
-              id: "6",
+              id: "5",
+              text: "Instalación y restauracion de persianas para tus ventanas",
+            },
+            { id: "6", text: "Paredes con estilo, instalación de papel tapiz" },
+            {
+              id: "7",
               text: "Tu hogar fresco con películas de protección solar",
+            },
+            {
+              id: "8",
+              text: "nstalacion y restauracion de Toldos y Pérgolas",
+            },
+            {
+              id: "9",
+              text: "Dale Vanguardia y elegancia a tu hogar con la Instalacion de PanelWall",
             },
           ].map((service) => (
             <div key={service.id} className="services-card">

@@ -24,7 +24,7 @@ function About() {
       <div className="about-right">
         <div className="about-video">
           <video
-            src="/public/Images/comoLlegar.mp4"
+            src="/public/video/comoLlegar.mp4"
             autoPlay
             loop
             muted
