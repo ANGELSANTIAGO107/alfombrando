@@ -18,10 +18,13 @@ function Services() {
       {selectedService ? (
         <div className="service-details">
           <h2 className="service-name">{selectedService.name}</h2>
-          <img
-            className="service-image"
+          <video
+            className="service-video"
             src={selectedService.urlImage}
-            alt={selectedService.name}
+            controls
+            loop
+            autoPlay
+            muted
           />
           <p className="service-description">{selectedService.description}</p>
 
