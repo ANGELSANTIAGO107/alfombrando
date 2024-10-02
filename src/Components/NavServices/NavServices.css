@@ -73,11 +73,14 @@
 }
 
 .img-services {
-    border-radius: 1em;
     width: 100%;
-    /* Asegúrate de que la imagen ocupe todo el ancho disponible dentro de la tarjeta */
-    height: auto;
-    /* Mantiene la proporción de la imagen */
+    /* El ancho será el 100% del contenedor padre */
+    height: 340px;
+    /* Fijamos la altura a 200px (puedes ajustarlo) */
+    object-fit: cover;
+    /* Esto asegura que la imagen se ajuste al tamaño sin distorsionarse */
+    border-radius: 10px;
+    /* Un pequeño redondeo en las esquinas, opcional */
 }
 
 .text-scroll {

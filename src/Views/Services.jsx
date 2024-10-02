@@ -13,34 +13,42 @@ function Services() {
   return (
     <>
       <Header />
-      <h1>Servicio Detallado</h1>
+      <h1 className="page-title">Servicio Detallado</h1>
 
       {selectedService ? (
-        <div className="service-details">
+        <div className="service-container">
           <h2 className="service-name">{selectedService.name}</h2>
-          <video
-            className="service-video"
-            src={selectedService.urlImage}
-            controls
-            loop
-            autoPlay
-            muted
-          />
-          <p className="service-description">{selectedService.description}</p>
-
-          <div className="whatsapp-redirect">
-            <p>Cotiza por WhatsApp:</p>
-            <a
-              href="https://wa.me/1234567890" // Reemplaza con el número de WhatsApp de tu empresa
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="/Images/QRwhatsapp.png"
-                alt="QR WhatsApp"
-                className="qr-image"
+          <div className="service-content">
+            <div className="service-left">
+              <video
+                className="service-video"
+                src={selectedService.urlImage}
+                controls // Si deseas que el usuario pueda pausar o reproducir manualmente
+                loop // El video se reiniciará solo al terminar
+                autoPlay // El video se reproducirá automáticamente al cargarse
+                muted // El video estará en silencio para evitar reproducción de sonido automática
               />
-            </a>
+            </div>
+            <div className="service-right">
+              <p className="icon-clean">{selectedService.icon}</p>
+              <p className="service-description">
+                {selectedService.description}
+              </p>
+              <div className="whatsapp-redirect">
+                <p>Cotiza por WhatsApp:</p>
+                <a
+                  href="https://wa.me/3105385315" // Reemplaza con el número de WhatsApp de tu empresa
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="/public/Images/qrAlfombrando.jpg"
+                    alt="QR WhatsApp"
+                    className="qr-image"
+                  />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       ) : (
