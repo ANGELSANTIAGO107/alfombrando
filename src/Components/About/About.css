@@ -26,7 +26,7 @@
 
 .about-title {
     margin: 20px 0;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
     text-align: center;
     padding: 10px;
@@ -34,7 +34,7 @@
 
 .about-description {
     text-align: center;
-    font-size: 19px;
+    font-size: 16px;
     line-height: 1.5;
     margin: 20px;
 }
@@ -43,15 +43,31 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    /* Asegura que el contenedor del video ocupe todo el espacio vertical */
+    height: 100%; /* Ensures the video container takes up full vertical space */
 }
 
 .video-player {
-    width: 50%;
-    /* Reduce el tamaño del video a la mitad */
-    max-width: 270px;
-    /* Limita el tamaño máximo del video */
-    height: auto;
-    border-radius: 10px;
+    width: 60%; /* Increase width of the video to 60% */
+    max-width: 450px; /* Increase the maximum width of the video */
+    height: 450px; /* Increase the height of the video */
+    border-radius: 10px; /* Rounded corners for the player container */
+    overflow: hidden; /* Ensure that the border radius works properly */
+}
+
+.video-player video, /* If you're using a <video> tag */
+.video-player iframe { /* If you're using an <iframe> tag for YouTube or similar */
+    width: 100%; /* Ensure the video or iframe takes the full width */
+    height: 100%; /* Ensure the video or iframe takes the full height */
+    border: 4px solid #007BFF; /* Add a solid border with a blue color */
+    border-radius: 10px; /* Ensure the corners are rounded to match the player */
+}
+
+.about-left {
+    width: 80%;
+    display: flex;
+    flex-direction: column; /* Stacks child elements vertically */
+    align-items: center; /* Centers child elements horizontally */
+    justify-content: center; /* Centers child elements vertically */
+    padding-left: 20px; /* Add some padding to the left */
+    margin: 0 auto; /* Center the .about-left section within its grid cell */
 }

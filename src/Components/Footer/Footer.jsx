@@ -6,9 +6,9 @@ function Footer() {
     {
       id: 1,
       links: [
-        { id: 1, name: "Sobre nosotros", link: "#about-us" },
-        { id: 2, name: "Servicios", link: "#services" },
-        { id: 3, name: "Productos", link: "#products" },
+        { id: 1, name: "Sobre nosotros", link: "/#about" },
+        { id: 2, name: "Servicios", link: "/#services" },
+        { id: 3, name: "Productos", link: "/#nav" },
       ],
     },
     {

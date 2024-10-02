@@ -10,3 +10,59 @@ header {
 .content {
   padding-top: 100px;
 }
+
+/* Asegúrate de que el body puede desplazarse */
+body {
+  overflow-y: scroll; 
+}
+
+/* Ajusta el padding del banner según sea necesario */
+.banner {
+  padding-bottom: 100px; /* Ajusta según sea necesario para evitar superposición */
+}
+/* Ajustar el estilo del modal para que se muestre justo sobre el icono de WhatsApp */
+.modal {
+  position: fixed;
+  bottom: 40px;
+  right: 20px; /* Alineado con el icono de WhatsApp */
+  background-color: rgba(255, 255, 255, 1); /* Fondo blanco */
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 2000;
+  width: 250px; /* Ajusta el tamaño del modal */
+}
+
+.modal-content {
+  position: relative;
+  text-align: center;
+}
+
+.close {
+  position: absolute;
+  top: -15px;
+  right: 1px;
+  font-size: 30px;
+  cursor: pointer;
+  
+}
+
+.modal-image {
+  max-width: 75%;
+  height: auto;
+  
+}
+
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 48px;
+  color: green;
+  transition: bottom 0.2s ease;
+  z-index: 1000;
+}
+
+.whatsapp-icon:hover {
+  cursor: pointer;
+}

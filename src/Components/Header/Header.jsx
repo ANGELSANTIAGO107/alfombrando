@@ -16,17 +16,17 @@ function Header() {
         <a href="/">
           <p>Inicio</p>
         </a>
-        <a href="/#nav">
+        <a href="/#products">
           <p>Productos</p>
         </a>
         <a href="/#services">
           <p>Servicios</p>
         </a>
         <a href="/#about">
-          <p>Sobre Nosotros</p>
+          <p>Sobre nosotros</p>
         </a>
         <a href="/#redes">
-          <p>Nuestras Redes</p>
+          <p>Nuestras redes</p>
         </a>
       </div>
     </div>

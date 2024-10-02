@@ -1,8 +1,6 @@
 .div-img {
   width: 90%;
-  /* Ajusta este valor para controlar el ancho total de la imagen */
   max-width: 1200px;
-  /* Limita el ancho máximo si es necesario */
   height: 500px;
   display: flex;
   flex-direction: column;
@@ -13,18 +11,39 @@
   background-position: center;
   background-size: cover;
   border-radius: 20px;
-  margin-top: 100px; /* Aumenta el espacio con el header */
+  margin-top: 100px;
   margin-bottom: 50px;
   margin-right: auto;
   margin-left: auto;
+  
+  /* Superposición de color con opacidad */
+  position: relative; /* Para usar el ::before */
+}
+
+.div-img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.379);
+  border-radius: 20px;
+  z-index: 1; /* Coloca la capa por debajo del texto */
+}
+
+.div-img-title,
+.div-img-paragraph {
+  position: relative; /* Para que los textos estén por encima de la opacidad */
+  z-index: 2;
 }
 
 .div-img-title {
   color: white;
-  font-size: 50px;
+  font-size: 55px;
 }
 
-.div-img-parragraph {
+.div-img-paragraph {
   color: white;
   font-size: 20px;
   margin-top: 10px;

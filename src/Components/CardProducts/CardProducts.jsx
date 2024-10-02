@@ -89,7 +89,7 @@ const products = [
 function CardProducts() {
   const context = useContext(ProductContextValues);
   const navigate = useNavigate();
-  const [visibleProducts, setVisibleProducts] = useState(4);
+  const [visibleProducts, setVisibleProducts] = useState(3);
 
   const handleButtonClick = (category) => {
     context.setMenuData(category);
@@ -97,15 +97,15 @@ function CardProducts() {
   };
 
   const loadMoreProducts = () => {
-    setVisibleProducts((prevCount) => prevCount + 4);
+    setVisibleProducts((prevCount) => prevCount + 3);
   };
 
   const loadLessProducts = () => {
-    setVisibleProducts((prevCount) => Math.max(4, prevCount - 4));
+    setVisibleProducts((prevCount) => Math.max(3, prevCount - 3));
   };
 
   return (
-    <div className="nav-container" id="nav">
+    <div className="nav-container" id="products">
       <div className="grid-container">
         {products.slice(0, visibleProducts).map((product, index) => (
           <div key={index} className="catalogo-card">
@@ -124,21 +124,21 @@ function CardProducts() {
                 context.setSelectedCategory(product.category);
               }}
             >
-              Ver Catalogo
+              Ver catálogo
             </button>
           </div>
         ))}
       </div>
 
       <div className="buttons-container">
-        {visibleProducts > 4 && (
+        {visibleProducts > 3 && (
           <button className="load-button" onClick={loadLessProducts}>
-            Ver Menos Productos
+            Ver menos productos
           </button>
         )}
         {visibleProducts < products.length && (
           <button className="load-button" onClick={loadMoreProducts}>
-            Ver Más Productos
+            Ver más productos
           </button>
         )}
       </div>

@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top:50px;
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 
@@ -20,49 +20,29 @@
 
 .Services-icon {
     margin-left: 2px;
-
 }
 
 .nav-services {
-    width: 40%;
-    /* Ajusta el ancho según el diseño */
+    width: 43%;
     height: auto;
     padding: 5px;
     display: flex;
-    overflow-x: auto;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory; /* Define el snapping horizontal */
+    -ms-overflow-style: none;  /* Para IE y Edge */
+    scrollbar-width: none;  /* Para Firefox */
 }
 
-/* Personalización para navegadores WebKit (Chrome, Safari, Edge) */
 .nav-services::-webkit-scrollbar {
-    height: 10px;
-    /* Altura de la barra de desplazamiento */
-}
-
-.nav-services::-webkit-scrollbar-thumb {
-    background-color: #888;
-    /* Color de la barra */
-    border-radius: 10px;
-    /* Borde redondeado */
-    border: 2px solid #f1f1f1;
-    /* Espacio alrededor de la barra */
-}
-
-.nav-services::-webkit-scrollbar-thumb:hover {
-    background-color: #727c73;
-    /* Color de la barra al pasar el cursor */
+    display: none;  /* Oculta la barra de desplazamiento en navegadores WebKit */
 }
 
 .services-card {
     flex: 0 0 auto;
-    /* Evita que las tarjetas se estiren */
-    width: 200px;
-    /* Ajusta el ancho de las tarjetas según tu diseño */
+    width: 240px;
     margin-right: 20px;
-    /* Espacio entre tarjetas */
-    scroll-snap-align: start;
-    /* Alineación de las tarjetas */
+    scroll-snap-align: start;  /* Las tarjetas se alinean al inicio al hacer scroll */
     margin-bottom: 15px;
-    /* Añade espacio inferior */
 }
 
 .text-1 {
@@ -75,13 +55,11 @@
 .img-services {
     border-radius: 1em;
     width: 100%;
-    /* Asegúrate de que la imagen ocupe todo el ancho disponible dentro de la tarjeta */
-    height: auto;
-    /* Mantiene la proporción de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
 }
 
 .text-scroll {
-    font-size:small;
+    font-size: small;
     text-align: center;
     padding-top: 6px;
 }
