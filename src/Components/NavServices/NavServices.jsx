@@ -70,7 +70,7 @@ function NavServices() {
             },
             {
               id: "5",
-              text: "Instalación y restauracion de persianas para tus ventanas",
+              text: "Instalación y restauración de persianas para tus ventanas",
             },
             { id: "6", text: "Paredes con estilo, instalación de papel tapiz" },
             {
@@ -79,11 +79,11 @@ function NavServices() {
             },
             {
               id: "8",
-              text: "nstalacion y restauracion de Toldos y Pérgolas",
+              text: "Instalacion y restauracion de Toldos y Pérgolas",
             },
             {
               id: "9",
-              text: "Dale Vanguardia y elegancia a tu hogar con la Instalacion de PanelWall",
+              text: "Dale vanguardia y elegancia a tu hogar con la instalacion de PanelWall",
             },
           ].map((service) => (
             <div key={service.id} className="services-card">

@@ -40,63 +40,143 @@
     justify-content: center;
     align-items: center;
     transition: transform 0.3s, background-color 0.3s;
-    /* Animación para el hover */
     background-color: transparent;
-    /* Color de fondo inicial */
     border-radius: 5px;
-    /* Esquinas redondeadas */
     padding: 10px;
-    /* Espaciado interno */
 }
 
 .card:hover {
     transform: translateY(-5px);
-    /* Elevar ligeramente al hacer hover */
     background-color: rgb(255, 255, 255);
-    /* Cambiar el fondo a negro */
 }
 
 .card p {
     margin: 0;
     color: rgb(255, 255, 255);
-    /* Color de texto inicial */
     transition: color 0.3s;
-    /* Transición para el color del texto */
 }
 
 .card:hover p {
     color: rgb(0, 0, 0);
-    /* Cambiar el texto a blanco en hover */
 }
 
 .images-redes {
     width: 40px;
-    /* Tamaño más pequeño */
     height: 40px;
-    /* Tamaño más pequeño */
     font-size: 24px;
-    /* Controla el tamaño del icono */
     color: rgb(255, 255, 255);
-    /* Color inicial de los iconos */
     transition: color 0.3s;
-    /* Transición para el cambio de color */
-    
-    
 }
 
 .card:hover .images-redes {
     color: rgb(0, 0, 0);
-    /* Cambiar color del icono a blanco en hover */
 }
- .text-redes{
+
+.text-redes {
     padding-bottom: 10px;
- }
+}
 
- .qr-box{
+.qr-box {
     margin-top: 10px;
- }
+}
 
- .h1-redes{
+.h1-redes {
     font-size: 25px;
     font-weight: 550;
- }
+}
+
+/* Media Queries */
+
+/* Pantallas grandes: desde 1024px en adelante */
+@media (min-width: 1024px) {
+    .redes-principal {
+        height: 230px;
+    }
+
+    .left-box,
+    .right-box {
+        width: 50%;
+    }
+
+    .h1-redes {
+        font-size: 28px; /* Aumentar ligeramente el tamaño del título */
+    }
+
+    .images-redes {
+        width: 50px; /* Aumentar el tamaño de los iconos */
+        height: 50px;
+    }
+}
+
+/* Pantallas medianas: desde 768px a 1023px */
+@media (min-width: 769px) and (max-width: 1023px) {
+    .redes-principal {
+        height: 250px;
+        flex-direction: column; /* Apila las cajas verticalmente */
+        justify-content: center;
+    }
+
+    .left-box,
+    .right-box {
+        width: 100%;
+        text-align: center;
+    }
+
+    .icons {
+        height: auto;
+        flex-wrap: wrap; /* Permite que los iconos se ajusten en varias filas */
+        justify-content: center;
+    }
+
+    .images-redes {
+        width: 45px; /* Ajuste del tamaño de los iconos para pantallas medianas */
+        height: 45px;
+    }
+
+    .h1-redes {
+        font-size: 24px; /* Ajuste del tamaño del texto */
+    }
+
+    .text-redes {
+        font-size: 16px;
+    }
+}
+
+/* Pantallas pequeñas: hasta 767px */
+@media  (max-width: 481px) and (max-width: 768px) {
+    .redes-principal {
+        flex-direction: column;
+        height: auto; /* Deja que el contenedor crezca según el contenido */
+        padding: 20px 0;
+    }
+
+    .left-box,
+    .right-box {
+        width: 100%;
+        margin-bottom: 20px; /* Añade espacio entre las cajas */
+    }
+
+    .icons {
+        height: auto;
+        justify-content: center;
+        flex-wrap: wrap; /* Permite que los iconos se apilen en varias filas */
+    }
+
+    .images-redes {
+        width: 40px; /* Tamaño más pequeño en pantallas móviles */
+        height: 40px;
+    }
+
+    .h1-redes {
+        font-size: 20px; /* Reduce el tamaño del título para móviles */
+    }
+
+    .text-redes {
+        font-size: 14px;
+    }
+}
+@media (min-width: 352px) and (max-width: 480px){
+    .h1-redes {
+        text-align: center; /* Centrar el h1 */
+    }
+}

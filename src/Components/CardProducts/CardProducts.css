@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   position: relative;
-  margin-top: 50px;
+  margin-top: 50px;  
   margin-bottom: 50px;
 }
 
@@ -13,6 +13,8 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
+  max-width: 1200px; /* Ancho máximo */
+  margin: 0 auto; /* Centra la cuadrícula */
 }
 
 .catalogo-card {
@@ -21,14 +23,13 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  margin: 1rem;
+  margin: auto;
   border: 2px solid #b5b5b5; 
   border-radius: 10px;
-  min-height: 400px;
+  min-height: 438px;
   width: 85%; 
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 
 .catalogo-card:hover {
   transform: scale(1.05);
@@ -93,4 +94,55 @@
   margin: 1rem;
   text-align: justify;
   flex-grow: 1;
+}
+
+/* Media Queries */
+
+/* Pantallas medianas: desde 768px a 1023px */
+/* @ */
+
+/* Pantallas pequeñas: desde 481px a 767px */
+@media (min-width: 481px) and (max-width: 769px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+    margin: 0 auto; /* Centra la cuadrícula en pantallas pequeñas */
+  }
+
+  .catalogo-card {
+    min-height: 300px; /* Ajuste de altura mínima */
+  }
+
+  .navText {
+    font-size: 14px; /* Tamaño de fuente del texto de navegación */
+  }
+
+  .button-catalog,
+  .load-button {
+    font-size: 14px; /* Tamaño de fuente para botones */
+  }
+}
+
+/* Pantallas extra pequeñas: hasta 480px */
+@media  (min-width: 352px) and (max-width: 480px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    margin-bottom: 10px;
+  }
+ .navText {
+    font-size: 14px; /* Tamaño de fuente del texto de navegación */
+  }
+
+  .button-catalog,
+  .load-button {
+    font-size: 14px; /* Tamaño de fuente para botones */
+  }
+
+  .product-description {
+    font-size: 12px; /* Tamaño de fuente del párrafo */
+  }
+  .buttons-container {
+    gap: 35px;
+    margin-top: 15px;
+    width: 80%;
+}
 }

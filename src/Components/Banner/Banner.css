@@ -15,9 +15,7 @@
   margin-bottom: 50px;
   margin-right: auto;
   margin-left: auto;
-  
-  /* Superposición de color con opacidad */
-  position: relative; /* Para usar el ::before */
+  position: relative;
 }
 
 .div-img::before {
@@ -29,12 +27,12 @@
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.379);
   border-radius: 20px;
-  z-index: 1; /* Coloca la capa por debajo del texto */
+  z-index: 1;
 }
 
 .div-img-title,
 .div-img-paragraph {
-  position: relative; /* Para que los textos estén por encima de la opacidad */
+  position: relative;
   z-index: 2;
 }
 
@@ -48,3 +46,71 @@
   font-size: 20px;
   margin-top: 10px;
 }
+
+/* Media Queries */
+
+/* Pantallas grandes: desde 1024px en adelante */
+@media (min-width: 1024px) {
+  .div-img {
+    height: 500px;
+  }
+  
+  .div-img-title {
+    font-size: 55px;
+  }
+  
+  .div-img-paragraph {
+    font-size: 20px;
+  }
+}
+
+/* Pantallas medianas: desde 768px a 1023px */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .div-img {
+    height: 400px;
+  }
+  
+  .div-img-title {
+    font-size: 45px;
+  }
+  
+  .div-img-paragraph {
+    font-size: 18px;
+  }
+}
+
+/* Pantallas pequeñas: desde 481px a 767px */
+@media (min-width: 481px) and (max-width: 767px) {
+  .div-img {
+    height: 350px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+  }
+  
+  .div-img-title {
+    font-size: 35px;
+  }
+  
+  .div-img-paragraph {
+    font-size: 16px;
+  }
+}
+
+/* Media Query para pantallas entre 352px y 480px */
+@media (min-width: 352px) and (max-width: 480px) {
+  .div-img {
+    height: 250px; /* Altura ajustada para pantallas pequeñas */
+  }
+  
+  .div-img-title {
+    font-size: 28px; /* Tamaño de fuente para el título */
+    text-align: center; /* Alineación centrada */
+  }
+  
+  .div-img-paragraph {
+    font-size: 14px; /* Tamaño de fuente para el párrafo */
+    margin-top: 5px; /* Margen superior */
+    text-align: center; /* Alineación centrada */
+  }
+}
+

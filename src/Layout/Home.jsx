@@ -41,7 +41,6 @@ export const Home = () => {
       <About />
       <div
         className="whatsapp-icon"
-        style={{ bottom: Math.max(20, 20 - scrollY) }}
         onClick={openModal} // Abrir el modal al hacer clic
       >
         <FaSquareWhatsapp />
@@ -53,7 +52,7 @@ export const Home = () => {
               &times;
             </span>
             <img
-          src="/public/Images/qrAlfombrando.jpg"
+              src="/public/Images/qrAlfombrando.jpg"
           alt="alfombrando"
           className="modal-image"
         />

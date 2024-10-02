@@ -1,5 +1,5 @@
 .principal-services {
-    width: 100%;
+    width: 99%;
     height: 400px;
     display: flex;
     justify-content: space-evenly;
@@ -23,7 +23,7 @@
 }
 
 .nav-services {
-    width: 43%;
+    width: 50%;
     height: auto;
     padding: 5px;
     display: flex;
@@ -62,4 +62,87 @@
     font-size: small;
     text-align: center;
     padding-top: 6px;
+}
+
+/* Media Queries */
+
+/* Pantallas medianas: desde 768px a 1023px */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .principal-services {
+        flex-direction: column; /* Cambia a columna */
+        align-items: center; /* Centra los elementos */
+    }
+
+    .info-services {
+        width: 80%; /* Ajusta el ancho */
+    }
+
+    .nav-services {
+        width: 80%; /* Ajusta el ancho */
+        justify-content: center; /* Centra el contenido */
+    }
+
+    .services-card {
+        width: 200px; /* Ajuste de tamaño para tarjetas */
+    }
+
+    .text-1 {
+        font-size: 14px; /* Tamaño de texto reducido */
+    }
+}
+
+/* Pantallas pequeñas: desde 481px a 767px */
+@media (min-width: 481px) and (max-width: 767px) {
+    .principal-services {
+        flex-direction: column; /* Cambia a columna */
+        align-items: center; /* Centra los elementos */
+    }
+
+    .info-services {
+        width: 90%; /* Ajusta el ancho */
+    }
+
+    .nav-services {
+        width: 90%; /* Ajusta el ancho */
+        justify-content: center; /* Centra el contenido */
+    }
+
+    .services-card {
+        width: 180px; /* Ajuste de tamaño para tarjetas */
+    }
+
+    .text-1 {
+        font-size: 13px; /* Tamaño de texto reducido */
+    }
+}
+
+/* Pantallas extra pequeñas: hasta 480px */
+@media (max-width: 480px) {
+    .principal-services {
+        flex-direction: column; /* Cambia a columna */
+        align-items: center; /* Centra los elementos */
+        height: auto;
+    }
+
+    .info-services {
+        width: 100%; /* Ajusta el ancho */
+    }
+
+    .nav-services {
+        width: 80%; /* Ajusta el ancho */
+        justify-content: center; /* Centra el contenido */
+ 
+    }
+
+    .services-card {
+        width: 100%;
+        height: 50%;
+        margin-right: 0;
+        margin-bottom: 10px; 
+        margin: 15px;
+    }
+
+    .text-1 {
+        font-size: 12px; /* Tamaño de texto reducido */
+    }
 }

@@ -66,3 +66,10 @@ body {
 .whatsapp-icon:hover {
   cursor: pointer;
 }
+@media (min-width: 352px) and (max-width: 480px) {
+  .whatsapp-icon {
+    bottom: 0px;
+    right: 3px;
+  }
+}
+

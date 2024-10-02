@@ -1,31 +1,45 @@
+import { useState } from "react";
 import "./Header.css";
-//import { useIntersectionObserver } from "../../hooks/useIntersectionObserver";
-//import { useRef } from "react";
 
 function Header() {
-  //const elementRef = useRef();
-  //const isVisible = useIntersectionObserver()
+  const [isMenuOpen, setMenuOpen] = useState(false);
+  const [activeLink, setActiveLink] = useState("inicio"); // Estado para el enlace activo
+
+  const toggleMenu = () => {
+    setMenuOpen(!isMenuOpen);
+  };
+
+  const handleLinkClick = (link) => {
+    setActiveLink(link); // Actualiza el enlace activo
+    setMenuOpen(false); // Cierra el menú en pantallas pequeñas
+  };
+
   return (
     <div className="headerbox" id="header">
-      <img
-        src="../../public/Images/LogoAlfombrandoSinFondo.png"
-        alt="logo"
-        className="logo"
-      />
-      <div className="navHome">
-        <a href="/">
+      <div className="headerContent">
+        <img
+          src="../../public/Images/LogoAlfombrandoSinFondo.png"
+          alt="logo"
+          className="logo"
+        />
+        <button className="hamburger" onClick={toggleMenu}>
+          &#9776;
+        </button>
+      </div>
+      <div className={`navHome ${isMenuOpen ? "open" : ""}`}>
+        <a href="/" className={activeLink === "inicio" ? "selected" : ""} onClick={() => handleLinkClick("inicio")}>
           <p>Inicio</p>
         </a>
-        <a href="/#products">
+        <a href="/#products" className={activeLink === "products" ? "selected" : ""} onClick={() => handleLinkClick("products")}>
           <p>Productos</p>
         </a>
-        <a href="/#services">
+        <a href="/#services" className={activeLink === "services" ? "selected" : ""} onClick={() => handleLinkClick("services")}>
           <p>Servicios</p>
         </a>
-        <a href="/#about">
+        <a href="/#about" className={activeLink === "about" ? "selected" : ""} onClick={() => handleLinkClick("about")}>
           <p>Sobre nosotros</p>
         </a>
-        <a href="/#redes">
+        <a href="/#redes" className={activeLink === "redes" ? "selected" : ""} onClick={() => handleLinkClick("redes")}>
           <p>Nuestras redes</p>
         </a>
       </div>
