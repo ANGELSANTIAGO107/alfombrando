@@ -1,8 +1,39 @@
 import "./NavServices.css";
 import { Link } from "react-router-dom";
 import { BsPersonFillGear } from "react-icons/bs";
+import { useRef, useEffect } from "react"; 
 
 function NavServices() {
+  const sliderRef = useRef(null); // Referencia para el contenedor del slider
+
+  useEffect(() => {
+    const slider = sliderRef.current;
+
+    // Función para mover el slider automáticamente
+    const autoScroll = () => {
+      if (slider) {
+        const maxScrollLeft = slider.scrollWidth - slider.clientWidth; // Determina el máximo desplazamiento posible
+
+        // Mueve el slider hacia la derecha
+        slider.scrollBy({ left: 200, behavior: "smooth" }); // Ajusta el desplazamiento
+
+        // Si ha llegado al final, vuelve al inicio
+        if (slider.scrollLeft + 200 >= maxScrollLeft) {
+          // Con un pequeño retraso para ver el efecto
+          setTimeout(() => {
+            slider.scrollTo({ left: 0, behavior: "smooth" });
+          }, 500); // Retraso de 500 ms
+        }
+      }
+    };
+
+    // Establece el intervalo para desplazar el slider cada 2 segundos (2000 ms)
+    const interval = setInterval(autoScroll, 2000); // Cambia el intervalo a 2000 ms
+
+    // Limpia el intervalo al desmontar el componente
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <div>
       <div className="principal-services" id="services">
@@ -19,8 +50,10 @@ function NavServices() {
             <strong>¡Y MÁS!</strong>
           </p>
         </div>
-        <div className="nav-services">
-          {[
+
+        {/* Contenedor del slider */}
+        <div className="nav-services" ref={sliderRef}>
+          {[ 
             {
               id: "1",
               text: "Limpieza profunda de muebles, alfombras y vidrios",
@@ -76,11 +109,16 @@ function NavServices() {
               text: "Disfruta de la belleza natural de la madera. Instalación y restauración de pisos de madera maciza",
               img: "/public/Images/ImagesServices/EscalerasMadera.jpeg",
             },
+            {
+              id: "9",
+              text: "Dale vanguardia y elegancia a tu hogar con la instalacion de PanelWall",
+              img:"/public/Images/ImagesServices/InstalacionPanelWall.jpg"
+            },
           ].map((service) => (
             <div key={service.id} className="services-card">
               <Link to={`/Services/${service.id}`}>
                 <img
-                  src={service.img}
+                  src={service.img} 
                   alt={service.text}
                   className="img-services"
                 />

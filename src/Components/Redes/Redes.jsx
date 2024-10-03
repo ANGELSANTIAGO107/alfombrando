@@ -46,10 +46,7 @@ function Redes() {
               </a>
             </div>
           </div>
-          <div className="qr-box">
-            <p className="text-redes">Escanéame y chatea con nosotros</p>
-            <img src="../../public/Images/QRwhatsapp.png" />
-          </div>
+         
         </div>
       </div>
     </>

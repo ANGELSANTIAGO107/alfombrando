@@ -35,6 +35,7 @@ function Products() {
           filteredProducts.map((product) => (
             <div key={product.id} className="product-card">
               <h2>{product.name}</h2>
+              <div className="container-left">
               <img
                 alt={product.name}
                 src={product.image}
@@ -44,6 +45,9 @@ function Products() {
               />
               <p>{product.description}</p>
               {/* Añadir la imagen QR y el texto "Escanéame y cotiza tu [categoría]" */}
+              </div>
+        
+          
               <img
                 src="../../public/Images/qrAlfombrando.jpg"
                 alt="Código QR para cotizar en WhatsApp"
