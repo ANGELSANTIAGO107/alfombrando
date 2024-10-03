@@ -97,22 +97,19 @@
 }
 
 /* Media Queries */
-
-/* Pantallas medianas: desde 768px a 1023px */
-/* @ */
-
-/* Pantallas pequeñas: desde 481px a 767px */
-@media (min-width: 481px) and (max-width: 769px) {
+@media (min-width: 921px) and (max-width: 1279px) {
   .grid-container {
-    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
-    margin: 0 auto; /* Centra la cuadrícula en pantallas pequeñas */
-  }
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 10px;
+}
+}
 
-  .catalogo-card {
-    min-height: 300px; /* Ajuste de altura mínima */
+@media (min-width: 769px) and (max-width: 920px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    margin-bottom: 10px;
   }
-
-  .navText {
+ .navText {
     font-size: 14px; /* Tamaño de fuente del texto de navegación */
   }
 
@@ -120,6 +117,48 @@
   .load-button {
     font-size: 14px; /* Tamaño de fuente para botones */
   }
+
+  .product-description {
+    font-size: 12px; /* Tamaño de fuente del párrafo */
+  }
+  .buttons-container {
+    gap: 35px;
+    margin-top: 15px;
+    width: 80%;
+}
+.catalogo-card{
+  width: 380px;
+  margin-bottom: 20px;
+}
+}
+
+
+@media (min-width: 481px) and (max-width: 769px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    margin-bottom: 10px;
+  }
+ .navText {
+    font-size: 14px; /* Tamaño de fuente del texto de navegación */
+  }
+
+  .button-catalog,
+  .load-button {
+    font-size: 14px; /* Tamaño de fuente para botones */
+  }
+
+  .product-description {
+    font-size: 12px; /* Tamaño de fuente del párrafo */
+  }
+  .buttons-container {
+    gap: 35px;
+    margin-top: 15px;
+    width: 80%;
+}
+.catalogo-card{
+  width: 380px;
+  margin-bottom: 20px;
+}
 }
 
 /* Pantallas extra pequeñas: hasta 480px */

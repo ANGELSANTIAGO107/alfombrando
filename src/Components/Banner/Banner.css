@@ -49,23 +49,20 @@
 
 /* Media Queries */
 
-/* Pantallas grandes: desde 1024px en adelante */
-@media (min-width: 1024px) {
+
+@media (min-width: 921px) and (max-width: 1279px) {
   .div-img {
-    height: 500px;
+    height: 460px;
   }
-  
-  .div-img-title {
-    font-size: 55px;
-  }
-  
+   
   .div-img-paragraph {
-    font-size: 20px;
+    font-size: 18px;
+    text-align: center;
+    padding: 0 20px;
   }
 }
 
-/* Pantallas medianas: desde 768px a 1023px */
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 769px) and (max-width: 920px) {
   .div-img {
     height: 400px;
   }
@@ -76,23 +73,26 @@
   
   .div-img-paragraph {
     font-size: 18px;
+    text-align: center;
+    padding: 0 20px;
   }
 }
 
 /* Pantallas pequeñas: desde 481px a 767px */
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 768px) {
   .div-img {
-    height: 350px;
-    margin-top: 70px;
-    margin-bottom: 40px;
+    height:300px;
   }
   
   .div-img-title {
-    font-size: 35px;
+    font-size: 28px;
+    text-align: center; 
   }
   
   .div-img-paragraph {
-    font-size: 16px;
+    font-size: 14px; 
+    margin-top: 5px; 
+    text-align: center; 
   }
 }
 

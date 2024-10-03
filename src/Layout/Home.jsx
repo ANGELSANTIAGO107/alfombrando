@@ -11,7 +11,6 @@ import "./Home.css";
 
 export const Home = () => {
   const [scrollY, setScrollY] = useState(0);
-  const [showModal, setShowModal] = useState(false); // Estado para controlar el modal
 
   const handleScroll = () => {
     setScrollY(window.scrollY);
@@ -24,14 +23,6 @@ export const Home = () => {
     };
   }, []);
 
-  const openModal = () => {
-    setShowModal(true);
-  };
-
-  const closeModal = () => {
-    setShowModal(false);
-  };
-
   return (
     <>
       <Header />
@@ -39,26 +30,14 @@ export const Home = () => {
       <CardProducts />
       <NavServices />
       <About />
-      <div
+      <a
+        href="https://wa.me/3105385315" // Reemplaza con tu número de WhatsApp
+        target="_blank"
+        rel="noopener noreferrer"
         className="whatsapp-icon"
-        onClick={openModal} // Abrir el modal al hacer clic
       >
         <FaSquareWhatsapp />
-      </div>
-      {showModal && ( // Condicionalmente mostrar el modal si showModal es true
-        <div className="modal" onClick={closeModal}>
-          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-            <span className="close" onClick={closeModal}>
-              &times;
-            </span>
-            <img
-              src="/public/Images/qrAlfombrando.jpg"
-          alt="alfombrando"
-          className="modal-image"
-        />
-          </div>
-        </div>
-      )}
+      </a>
       <Redes />
       <Footer />
     </>
