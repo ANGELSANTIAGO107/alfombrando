@@ -3,7 +3,7 @@ export const dataProduct = [
   {
     id: 1,
     name: "Alfombras 1.60cm * 2.30cm",
-    image: "../../public/Images/AlfombraVidrio.jpeg",
+    image: "../../public/Images/ImagesProducts/Alfombradostreinta.jpg",
     category: "Alfombras",
     description:
       "Convierte tus pisos en obras de arte con nuestras alfombras de ensueño. ¡Suavidad, estilo y comodidad para tu hogar!",
@@ -11,42 +11,42 @@ export const dataProduct = [
   {
     id: 2,
     name: "Alfombras 1.20cm * 1.70cm",
-    image: "../../public/Images/AlfombraVidrio.jpeg",
+    image: "../../public/Images/ImagesProducts/AlfombrasUnoSetenta.jpg",
     category: "Alfombras",
     description:
-      "Convierte tus pisos en obras de arte con nuestras alfombras de ensueño. ¡Suavidad, estilo y comodidad para tu hogar!",
+      "Transforma tus espacios en refugios de confort con nuestras alfombras de diseño. ¡Suavidad, estilo y calidez bajo tus pies!",
   },
   {
     id: 3,
     name: "Alfombras 2.00cm * 2.90cm",
-    image: "../../public/Images/AlfombraVidrio.jpeg",
+    image: "../../public/Images/ImagesProducts/AlfombraDosMetros.jpg",
     category: "Alfombras",
     description:
-      "Convierte tus pisos en obras de arte con nuestras alfombras de ensueño. ¡Suavidad, estilo y comodidad para tu hogar!",
+      "Descubre la magia de Oriente en cada fibra. Nuestras alfombras te transportarán a mundos lejanos con suavidad y estilo.",
   },
   {
     id: 4,
     name: "Alfombras 2.50cm * 3.40cm",
-    image: "../../public/Images/AlfombraVidrio.jpeg",
+    image: "../../public/Images/ImagesProducts/AlfombrasDosMetrosCuarenta.jpeg",
     category: "Alfombras",
     description:
-      "Convierte tus pisos en obras de arte con nuestras alfombras de ensueño. ¡Suavidad, estilo y comodidad para tu hogar!",
+      "Eleva la elegancia de tu hogar con nuestras alfombras artesanales. Diseño exclusivo, suavidad incomparable y durabilidad sin igual.",
   },
   {
     id: 5,
     name: "Alfombras Modulares",
-    image: "../../public/Images/AlfombraVidrio.jpeg",
+    image: "../../public/Images/ImagesProducts/AlfombrasModulares.jpg",
     category: "Alfombras",
     description:
-      "Convierte tus pisos en obras de arte con nuestras alfombras de ensueño. ¡Suavidad, estilo y comodidad para tu hogar!",
+      "Convierte cada paso en una experiencia única. Nuestras alfombras te ofrecen suavidad, estilo y confort en cada rincón de tu hogar",
   },
   {
     id: 6,
     name: "Alfombras en Rollo",
-    image: "../../public/Images/AlfombraVidrio.jpeg",
+    image: "../../public/Images/ImagesProducts/AlfombraEnRollo.jpg",
     category: "Alfombras",
     description:
-      "Convierte tus pisos en obras de arte con nuestras alfombras de ensueño. ¡Suavidad, estilo y comodidad para tu hogar!",
+      "Pisos que enamoran a primera vista. Nuestras alfombras combinan suavidad, estilo y la más alta calidad.",
   },
 
   // Categoría: Cortinas
@@ -182,18 +182,18 @@ export const dataProduct = [
   {
     id: 23,
     name: "Tapetes AtrapaMugre",
-    image: "../../public/Images/TapeteSilverHouse.jpeg",
+    image: "../../public/Images/ImagesProducts/TapetesAtrapaMugre1.jpg",
     category: "Tapetes",
     description:
-      "Un toque de calidez y personalidad para cada rincón de tu hogar. ¡Elige entre una gran variedad de diseños y colores!",
+      "Adiós manchas, hola tranquilidad. Nuestros tapetes atrapamugre son la solución perfecta para mantener tu piso impecable.",
   },
   {
     id: 24,
     name: "Tapete AtrapaHumedad",
-    image: "../../public/Images/TapeteSilverHouse.jpeg",
+    image: "../../public/Images/ImagesProducts/AtrapaHumedad.jpg",
     category: "Tapetes",
     description:
-      "Un toque de calidez y personalidad para cada rincón de tu hogar. ¡Elige entre una gran variedad de diseños y colores!",
+      "Di adiós a los charcos y a los malos olores. Nuestros tapetes atrapahumedad te brindan un ambiente más saludable.",
   },
   {
     id: 25,

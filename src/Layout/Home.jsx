@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import CardProducts from "../Components/CardProducts/CardProducts";
 import Header from "../Components/Header/Header";
 import Banner from "../Components/Banner/Banner";
@@ -10,7 +10,8 @@ import { FaSquareWhatsapp } from "react-icons/fa6";
 import "./Home.css";
 
 export const Home = () => {
-  const [scrollY, setScrollY] = useState(0);
+  const [scrollY, setScrollY] = useState(0); // Keep this declaration
+  const [showModal, setShowModal] = useState(false); // State for modal control
 
   const handleScroll = () => {
     setScrollY(window.scrollY);
@@ -31,7 +32,7 @@ export const Home = () => {
       <NavServices />
       <About />
       <a
-        href="https://wa.me/3105385315" // Reemplaza con tu número de WhatsApp
+        href="https://wa.me/3105385315" // Replace with your WhatsApp number
         target="_blank"
         rel="noopener noreferrer"
         className="whatsapp-icon"
@@ -43,5 +44,3 @@ export const Home = () => {
     </>
   );
 };
-
-export default Home;

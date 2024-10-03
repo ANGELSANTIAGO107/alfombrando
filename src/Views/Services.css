@@ -1,3 +1,16 @@
+.service-container {
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.page-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
 .service-details {
     border: 1px solid #ccc;
     padding: 20px;
@@ -7,8 +20,8 @@
 }
 
 .service-name {
-    text-align: center;
     font-size: 24px;
+    text-align: center;
     margin-bottom: 10px;
 }
 .service-image {
@@ -22,9 +35,45 @@
     height: auto;
     /* Mantiene la proporción correcta del video */
     margin-bottom: 20px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+}
+
+.service-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Centrar ambos contenedores verticalmente */
+    gap: 20px;
+}
+
+.service-left,
+.service-right {
+    flex: 1;
+    padding: 20px;
+}
+
+.service-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-video {
+    width: 100%;
+    height: 80vh;
+    /* Video ocupa la mitad de la pantalla en altura */
+    max-width: 400px;
+    object-fit: cover;
+    /* Mantiene la proporción del video */
+}
+
+.service-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* Centrar contenido verticalmente */
 }
 
 .service-description {
@@ -40,4 +89,28 @@
 .qr-image {
     width: 150px;
     height: auto;
+}
+
+.icon-clean {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .service-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-left,
+    .service-right {
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .service-video {
+        max-width: 100%;
+        height: auto;
+    }
 }

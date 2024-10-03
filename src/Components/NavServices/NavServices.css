@@ -54,11 +54,14 @@
 }
 
 .img-services {
-    border-radius: 1em;
     width: 100%;
-    height: auto; /* Mantiene la proporción de la imagen */
+    height: 388px;
+    /* Fija una altura para todas las imágenes */
+    object-fit: cover;
+    /* Esto asegura que la imagen se ajuste al contenedor sin distorsión */
+    border-radius: 10px;
+    /* Mantén el redondeo en las esquinas si lo deseas */
 }
-
 .text-scroll {
     font-size: small;
     text-align: center;
@@ -113,7 +116,7 @@
 
     .img-services {
         width: 100%; 
-        height: auto; 
+        height: 65%;
     }
     .text-1 {
         font-size: 16px;
