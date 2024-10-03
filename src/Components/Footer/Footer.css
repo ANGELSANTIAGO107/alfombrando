@@ -23,10 +23,22 @@
     color: #ccc;
 }
 
-/* Media Query for tablets and smaller screens (up to 768px wide) */
-@media (max-width: 768px) {
+
+@media  (min-width: 481px) and (max-width: 768px) {
     .footer-grid {
-        grid-template-columns: repeat(2, 1fr); /* Change to 2 columns */
+        grid-template-columns: 1fr; /* Change to 1 column */
+    }
+
+    /* Add border-bottom to every section (group of 3 links) */
+    .footer-grid > div {
+        border-bottom: 1px solid #ccc; /* Add bottom border to each section */
+        padding-bottom: 20px; /* Add padding to give space before the border */
+        margin-bottom: 20px;
+    }
+
+    /* Optional: remove the border from the last section */
+    .footer-grid > div:last-child {
+        border-bottom: none;
     }
 }
 
@@ -34,5 +46,17 @@
 @media (max-width: 480px) {
     .footer-grid {
         grid-template-columns: 1fr; /* Change to 1 column */
+    }
+
+    /* Add border-bottom to every section (group of 3 links) */
+    .footer-grid > div {
+        border-bottom: 1px solid #ccc; /* Add bottom border to each section */
+        padding-bottom: 20px; /* Add padding to give space before the border */
+        margin-bottom: 20px;
+    }
+
+    /* Optional: remove the border from the last section */
+    .footer-grid > div:last-child {
+        border-bottom: none;
     }
 }

@@ -10,8 +10,8 @@ import { FaSquareWhatsapp } from "react-icons/fa6";
 import "./Home.css";
 
 export const Home = () => {
-  const [setScrollY] = useState(0);
-  const [showModal, setShowModal] = useState(false); // Estado para controlar el modal
+  const [setScrollY] = useState(0); // Keep this declaration
+  
 
   const handleScroll = () => {
     setScrollY(window.scrollY);
@@ -24,14 +24,6 @@ export const Home = () => {
     };
   }, []);
 
-  const openModal = () => {
-    setShowModal(true);
-  };
-
-  const closeModal = () => {
-    setShowModal(false);
-  };
-
   return (
     <>
       <Header />
@@ -39,30 +31,16 @@ export const Home = () => {
       <CardProducts />
       <CardServices />
       <About />
-      <div
+      <a
+        href="https://wa.me/3105385315" // Replace with your WhatsApp number
+        target="_blank"
+        rel="noopener noreferrer"
         className="whatsapp-icon"
-        onClick={openModal} // Abrir el modal al hacer clic
       >
         <FaSquareWhatsapp />
-      </div>
-      {showModal && ( // Condicionalmente mostrar el modal si showModal es true
-        <div className="modal" onClick={closeModal}>
-          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-            <span className="close" onClick={closeModal}>
-              &times;
-            </span>
-            <img
-              src="/public/Images/qrAlfombrando.jpg"
-          alt="alfombrando"
-          className="modal-image"
-        />
-          </div>
-        </div>
-      )}
+      </a>
       <Redes />
       <Footer />
     </>
   );
 };
-
-export default Home;

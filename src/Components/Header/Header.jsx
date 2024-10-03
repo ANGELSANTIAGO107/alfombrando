@@ -17,14 +17,14 @@ function Header() {
   return (
     <div className="headerbox" id="header">
       <div className="headerContent">
+      <button className="hamburger" onClick={toggleMenu}>
+          &#9776;
+        </button>
         <img
           src="../../public/Images/LogoAlfombrandoSinFondo.png"
           alt="logo"
           className="logo"
         />
-        <button className="hamburger" onClick={toggleMenu}>
-          &#9776;
-        </button>
       </div>
       <div className={`navHome ${isMenuOpen ? "open" : ""}`}>
         <a href="/" className={activeLink === "inicio" ? "selected" : ""} onClick={() => handleLinkClick("inicio")}>

@@ -1,6 +1,6 @@
 .principal-services {
     width: 99%;
-    height: 400px;
+    height: auto;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -39,13 +39,14 @@
 
 .services-card {
     flex: 0 0 auto;
-    width: 240px;
+    width: 236px;
     margin-right: 20px;
     scroll-snap-align: start;  /* Las tarjetas se alinean al inicio al hacer scroll */
     margin-bottom: 15px;
 }
 
 .text-1 {
+    text-align: center;
     width: 80%;
     font-size: 15px;
     margin-top: 1rem;
@@ -67,10 +68,8 @@
     padding-top: 6px;
 }
 
-/* Media Queries */
 
-/* Pantallas medianas: desde 768px a 1023px */
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 769px) and (max-width: 920px) {
     .principal-services {
         flex-direction: column; /* Cambia a columna */
         align-items: center; /* Centra los elementos */
@@ -86,36 +85,49 @@
     }
 
     .services-card {
-        width: 200px; /* Ajuste de tamaño para tarjetas */
+        width: 156px;
     }
 
     .text-1 {
         font-size: 14px; /* Tamaño de texto reducido */
     }
+    .text-scroll {
+        font-size: 10px;
+    }
 }
 
-/* Pantallas pequeñas: desde 481px a 767px */
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 768px) {
     .principal-services {
-        flex-direction: column; /* Cambia a columna */
-        align-items: center; /* Centra los elementos */
-    }
-
-    .info-services {
-        width: 90%; /* Ajusta el ancho */
+        flex-direction: column; 
+        align-items: center; 
     }
 
     .nav-services {
-        width: 90%; /* Ajusta el ancho */
-        justify-content: center; /* Centra el contenido */
+        width: 90%; 
+        justify-content: center; 
+        padding: 0; 
     }
 
     .services-card {
-        width: 180px; /* Ajuste de tamaño para tarjetas */
+        width: 45%; 
+        height: auto;
+        margin: 0 5%;
     }
 
+    .img-services {
+        width: 100%; 
+        height: 65%;
+    }
     .text-1 {
-        font-size: 13px; /* Tamaño de texto reducido */
+        font-size: 16px;
+        width: 100%;
+    }
+    .info-services {
+        width: 62%;
+        margin-bottom: 10px;
+    }
+    .info-services h1{
+        font-size: 20px;
     }
 }
 
@@ -146,6 +158,7 @@
     }
 
     .text-1 {
-        font-size: 12px; /* Tamaño de texto reducido */
+        font-size: 12px; 
+
     }
 }
