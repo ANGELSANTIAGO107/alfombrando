@@ -48,139 +48,9 @@ export const dataProduct = [
     description:
       "Pisos que enamoran a primera vista. Nuestras alfombras combinan suavidad, estilo y la más alta calidad.",
   },
-
-  // Categoría: Cortinas
-  {
-    id: 7,
-    name: "Cortinas Tradicionales",
-    image: "../../public/Images/CortinasClaras.jpeg",
-    category: "Cortinas",
-    description:
-      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
-  },
-  {
-    id: 8,
-    name: "Panel Japones",
-    image: "../../public/Images/CortinasClaras.jpeg",
-    category: "Cortinas",
-    description:
-      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
-  },
-  {
-    id: 9,
-    name: "Sheer Elegance",
-    image: "../../public/Images/CortinasClaras.jpeg",
-    category: "Cortinas",
-    description:
-      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
-  },
-  {
-    id: 10,
-    name: "Cortinas Enrollables",
-    image: "../../public/Images/CortinasClaras.jpeg",
-    category: "Cortinas",
-    description:
-      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
-  },
-  {
-    id: 11,
-    name: "MacroMaderas",
-    image: "../../public/Images/CortinasClaras.jpeg",
-    category: "Cortinas",
-    description:
-      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
-  },
-  {
-    id: 12,
-    name: "Persianas Verticales",
-    image: "../../public/Images/CortinasClaras.jpeg",
-    category: "Cortinas",
-    description:
-      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
-  },
-  {
-    id: 13,
-    name: "MacroAluminios",
-    image: "../../public/Images/CortinasClaras.jpeg",
-    category: "Cortinas",
-    description:
-      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
-  },
-  {
-    id: 14,
-    name: "MiniPersianas",
-    image: "../../public/Images/CortinasClaras.jpeg",
-    category: "Cortinas",
-    description:
-      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
-  },
-  {
-    id: 15,
-    name: "Sheer Vertesse",
-    image: "../../public/Images/CortinasClaras.jpeg",
-    category: "Cortinas",
-    description:
-      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
-  },
-  {
-    id: 16,
-    name: "Cortinas Duette",
-    image: "../../public/Images/CortinasClaras.jpeg",
-    category: "Cortinas",
-    description:
-      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
-  },
-  {
-    id: 17,
-    name: "Cortinas SheerRoyale",
-    image: "../../public/Images/CortinasClaras.jpeg",
-    category: "Cortinas",
-    description:
-      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
-  },
-  {
-    id: 18,
-    name: "Shutterbox",
-    image: "../../public/Images/CortinasClaras.jpeg",
-    category: "Cortinas",
-    description:
-      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
-  },
-  {
-    id: 19,
-    name: "Persianas Impresas",
-    image: "../../public/Images/CortinasClaras.jpeg",
-    category: "Cortinas",
-    description:
-      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
-  },
-  {
-    id: 20,
-    name: "Persianas Motorizadas",
-    image: "../../public/Images/CortinasClaras.jpeg",
-    category: "Cortinas",
-    description:
-      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
-  },
-  {
-    id: 21,
-    name: "Cortinas Romanas",
-    image: "../../public/Images/CortinasClaras.jpeg",
-    category: "Cortinas",
-    description:
-      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
-  },
-  {
-    id: 22,
-    name: "Mosquiteros",
-    image: "../../public/Images/CortinasClaras.jpeg",
-    category: "Cortinas",
-    description:
-      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
-  },
   // Categoría: Tapetes
   {
-    id: 23,
+    id: 7,
     name: "Tapetes AtrapaMugre",
     image: "../../public/Images/ImagesProducts/TapetesAtrapaMugre1.jpg",
     category: "Tapetes",
@@ -188,7 +58,7 @@ export const dataProduct = [
       "Adiós manchas, hola tranquilidad. Nuestros tapetes atrapamugre son la solución perfecta para mantener tu piso impecable.",
   },
   {
-    id: 24,
+    id: 8,
     name: "Tapete AtrapaHumedad",
     image: "../../public/Images/ImagesProducts/AtrapaHumedad.jpg",
     category: "Tapetes",
@@ -196,155 +66,205 @@ export const dataProduct = [
       "Di adiós a los charcos y a los malos olores. Nuestros tapetes atrapahumedad te brindan un ambiente más saludable.",
   },
   {
-    id: 25,
+    id: 9,
     name: "Tapete Para Cocina",
-    image: "../../public/Images/TapeteSilverHouse.jpeg",
+    image: "../../public/Images/ImagesProducts/TapetesParaCocina.jpg",
     category: "Tapetes",
     description:
       "Un toque de calidez y personalidad para cada rincón de tu hogar. ¡Elige entre una gran variedad de diseños y colores!",
   },
 
   {
-    id: 26,
+    id: 10,
     name: "Tapete Para La Entrada",
-    image: "../../public/Images/TapeteSilverHouse.jpeg",
+    image: "../../public/Images/ImagesProducts/TapeteParaLaEntrada.jpg",
     category: "Tapetes",
     description:
       "Un toque de calidez y personalidad para cada rincón de tu hogar. ¡Elige entre una gran variedad de diseños y colores!",
   },
-  // Categoría: Muebles de Exterior
+  // Categoría: Cojines
+  {
+    id: 11,
+    name: "Cojin De Interior",
+    image: "../../public/Images/ImagesProducts/cojines.jpg",
+    category: "Cojines",
+    description:
+      "Agrega un toque de confort y estilo a tu hogar. ¡Cojines de todos los tamaños, colores y diseños!",
+  },
+  {
+    id: 12,
+    name: " Cojines De Exterior",
+    image: "../../public/Images/ImagesProducts/CojinesDeExterior.jpg",
+    category: "Cojines",
+    description:
+      "Viste tus paredes con estilo y personalidad. ¡Papel de colgadura para todos los gustos y presupuestos!",
+  },
+  // Categoría: Cortinas
+  {
+    id: 13,
+    name: "Cortinas Tradicionales",
+    image: "../../public/Images/ImagesProducts/CortinasTradicionales.jpg",
+    category: "Cortinas",
+    description:
+      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
+  },
+  {
+    id: 14,
+    name: "Panel Japones",
+    image: "../../public/Images/ImagesProducts/PanelJapones.jpg",
+    category: "Cortinas",
+    description:
+      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
+  },
+  {
+    id: 15,
+    name: "SheerElegance",
+    image: "../../public/Images/ImagesProducts/SheerElegance.jpg",
+    category: "Cortinas",
+    description:
+      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
+  },
+  {
+    id: 16,
+    name: "Cortinas Enrollables",
+    image: "../../public/Images/ImagesProducts/Enrollable.jpg",
+    category: "Cortinas",
+    description:
+      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
+  },
+  {
+    id: 17,
+    name: "MacroMaderas",
+    image: "../../public/Images/ImagesProducts/MacroMadera.png",
+    category: "Cortinas",
+    description:
+      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
+  },
+  {
+    id: 18,
+    name: "Persianas Verticales",
+    image: "../../public/Images/ImagesProducts/PersianasVerticales.jpg",
+    category: "Cortinas",
+    description:
+      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
+  },
+  {
+    id: 19,
+    name: "MacroAluminios",
+    image: "../../public/Images/ImagesProducts/MacroAluminio.jpg",
+    category: "Cortinas",
+    description:
+      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
+  },
+  {
+    id: 20,
+    name: "MiniPersianas",
+    image: "../../public/Images/ImagesProducts/MiniPersianas.jpg",
+    category: "Cortinas",
+    description:
+      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
+  },
+  {
+    id: 21,
+    name: "Sheer Vertesse",
+    image: "../../public/Images/ImagesProducts/SheerVertesse.jpg",
+    category: "Cortinas",
+    description:
+      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
+  },
+  {
+    id: 22,
+    name: "Cortinas Duette",
+    image: "../../public/Images/ImagesProducts/Duette.jpg",
+    category: "Cortinas",
+    description:
+      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
+  },
+  {
+    id: 23,
+    name: "Cortinas SheerRoyale",
+    image: "../../public/Images/ImagesProducts/SheerRoyale.jpg",
+    category: "Cortinas",
+    description:
+      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
+  },
+  {
+    id: 24,
+    name: "Shutterbox",
+    image: "../../public/Images/ImagesProducts/ShutterBox.jpg",
+    category: "Cortinas",
+    description:
+      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
+  },
+  {
+    id: 25,
+    name: "Persianas Impresas",
+    image: "../../public/Images/ImagesProducts/PersianasImpresas.jpg",
+    category: "Cortinas",
+    description:
+      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
+  },
   {
     id: 26,
-    name: "Comedores",
-    image: "../../public/Images/MueblesExteriorW.jpg",
-    category: "MueblesExterior",
+    name: "Persianas Motorizadas",
+    videoUrl: "../../video/PersianasMotorizadas.mp4",
+    category: "Cortinas",
     description:
-      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
+      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
   },
   {
     id: 27,
-    name: "Salas",
-    image: "../../public/Images/MueblesExteriorW.jpg",
-    category: "MueblesExterior",
+    name: "Cortinas Romanas",
+    image: "../../public/Images/ImagesProducts/CortinasRomanas.jpg",
+    category: "Cortinas",
     description:
-      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
+      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
   },
   {
     id: 28,
-    name: "Set De Balcon",
-    image: "../../public/Images/MueblesExteriorW.jpg",
-    category: "MueblesExterior",
+    name: "Mosquiteros",
+    image: "../../public/Images/ImagesProducts/Mosquiteros.jpg",
+    category: "Cortinas",
     description:
-      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
+      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
   },
+  // Categoría: Panel Wall
   {
     id: 29,
-    name: "Asoleadores",
-    image: "../../public/Images/MueblesExteriorW.jpg",
-    category: "MueblesExterior",
+    name: "Panel Wall",
+    image: "../../public/Images/ImagesProducts/panelwall1.1.jpeg.jpg",
+    category: "panelwall",
     description:
-      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
+      "Decora tus paredes de forma moderna y original. ¡Panel Wall para crear espacios únicos!",
   },
+  // Categoría: Papel de Colgadura
   {
     id: 30,
-    name: "Pagodas",
-    image: "../../public/Images/Pagodas.jpg",
-    category: "MueblesExterior",
+    name: "Papel De Colgadura Con Diseño",
+    image: "../../public/Images/ImagesProducts/papeldecolgaduracondiseño.jpg",
+    category: "PapelColgadura",
     description:
-      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
-  },
-  {
-    id: 30,
-    name: "Pagodas Rey",
-    image: "../../public/Images/Pagodas.jpg",
-    category: "MueblesExterior",
-    description:
-      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
+      "Viste tus paredes con estilo y personalidad. ¡Papel de colgadura para todos los gustos y presupuestos!",
   },
   {
     id: 31,
-    name: "Toldos De Brazos",
-    image: "../../public/Images/MueblesExteriorW.jpg",
-    category: "MueblesExterior",
+    name: "Papel De Colgadura Con Textura",
+    image: "../../public/Images/ImagesProducts/papeldecolgaduracontextura.jpg",
+    category: "PapelColgadura",
     description:
-      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
+      "Viste tus paredes con estilo y personalidad. ¡Papel de colgadura para todos los gustos y presupuestos!",
   },
   {
     id: 32,
-    name: "Toldos De Brazos",
-    image: "../../public/Images/MueblesExteriorW.jpg",
-    category: "MueblesExterior",
+    name: "Papel De Colgadura Infantil",
+    image: "../../public/Images/ImagesProducts/papelColgaduraInfantil.jpg",
+    category: "PapelColgadura",
     description:
-      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
+      "Viste tus paredes con estilo y personalidad. ¡Papel de colgadura para todos los gustos y presupuestos!",
   },
-  {
-    id: 33,
-    name: "Toldos De Brazos Enrollables",
-    image: "../../public/Images/MueblesExteriorW.jpg",
-    category: "MueblesExterior",
-    description:
-      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
-  },
-  {
-    id: 34,
-    name: "Toldos Verticales",
-    image: "../../public/Images/MueblesExteriorW.jpg",
-    category: "MueblesExterior",
-    description:
-      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
-  },
-  {
-    id: 35,
-    name: "Pergolas Romanas",
-    image: "../../public/Images/MueblesExteriorW.jpg",
-    category: "MueblesExterior",
-    description:
-      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
-  },
-  {
-    id: 36,
-    name: "Sombrillas",
-    image: "../../public/Images/MueblesExteriorW.jpg",
-    category: "MueblesExterior",
-    description:
-      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
-  },
-  {
-    id: 37,
-    name: "Toldos De DobleProyeccion",
-    image: "../../public/Images/MueblesExteriorW.jpg",
-    category: "MueblesExterior",
-    description:
-      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
-  },
-  {
-    id: 38,
-    name: "Persianas Z-Box",
-    image: "../../public/Images/MueblesExteriorW.jpg",
-    category: "MueblesExterior",
-    description:
-      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
-  },
-  {
-    id: 39,
-    name: "Mesas Auxiliares",
-    image: "../../public/Images/MueblesExteriorW.jpg",
-    category: "MueblesExterior",
-    description:
-      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
-  },
-  {
-    id: 40,
-    name: "Sillas Auxiliares",
-    image: "../../public/Images/MueblesExteriorW.jpg",
-    category: "MueblesExterior",
-    description:
-      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
-  },
-
   // Categoría: Pisos
   {
-    id: 41,
+    id: 33,
     name: "Pisos Laminados",
     image: "../../public/Images/Cogines.jpeg",
     category: "Pisos",
@@ -352,7 +272,7 @@ export const dataProduct = [
       "Dale un nuevo look a tus espacios con nuestros pisos de alta calidad. ¡Durabilidad, belleza y diseños para todos los gustos!",
   },
   {
-    id: 42,
+    id: 34,
     name: "Pisos SPC",
     image: "../../public/Images/Cogines.jpeg",
     category: "Pisos",
@@ -360,7 +280,7 @@ export const dataProduct = [
       "Dale un nuevo look a tus espacios con nuestros pisos de alta calidad. ¡Durabilidad, belleza y diseños para todos los gustos!",
   },
   {
-    id: 43,
+    id: 35,
     name: "Pisos PVC",
     image: "../../public/Images/Cogines.jpeg",
     category: "Pisos",
@@ -368,7 +288,7 @@ export const dataProduct = [
       "Dale un nuevo look a tus espacios con nuestros pisos de alta calidad. ¡Durabilidad, belleza y diseños para todos los gustos!",
   },
   {
-    id: 44,
+    id: 36,
     name: "Pisos En Madera Maciza",
     image: "../../public/Images/TapisadoAlfombrando.jpeg",
     category: "Pisos",
@@ -376,67 +296,16 @@ export const dataProduct = [
       "Viste tus paredes con estilo y personalidad. ¡Papel de colgadura para todos los gustos y presupuestos!",
   },
   {
-    id: 45,
+    id: 37,
     name: "Pisos Vinilo En Rollo",
     image: "../../public/Images/TapisadoAlfombrando.jpeg",
     category: "Pisos",
     description:
       "Viste tus paredes con estilo y personalidad. ¡Papel de colgadura para todos los gustos y presupuestos!",
   },
-  // Categoría: Papel de Colgadura
-  {
-    id: 46,
-    name: "Papel De Colgadura Con Diseño",
-    image: "../../public/Images/papeldecolgaduracondiseño.jpg",
-    category: "PapelColgadura",
-    description:
-      "Viste tus paredes con estilo y personalidad. ¡Papel de colgadura para todos los gustos y presupuestos!",
-  },
-  {
-    id: 47,
-    name: "Papel De Colgadura Con Textura",
-    image: "../../public/Images/papeldecolgaduracontextura.jpg",
-    category: "PapelColgadura",
-    description:
-      "Viste tus paredes con estilo y personalidad. ¡Papel de colgadura para todos los gustos y presupuestos!",
-  },
-  {
-    id: 48,
-    name: "Papel De Colgadura Infantil",
-    image: "../../public/Images/TapisadoAlfombrando.jpeg",
-    category: "PapelColgadura",
-    description:
-      "Viste tus paredes con estilo y personalidad. ¡Papel de colgadura para todos los gustos y presupuestos!",
-  },
-  // Categoría: Panel Wall
-  {
-    id: 49,
-    name: "Panel Wall",
-    image: "../../public/Images/panelwall1.1.jpeg.jpg",
-    category: "panelwall",
-    description:
-      "Decora tus paredes de forma moderna y original. ¡Panel Wall para crear espacios únicos!",
-  },
-  // Categoría: Cojines
-  {
-    id: 50,
-    name: "Cojin De Interior",
-    image: "../../public/Images/Cogines.jpeg",
-    category: "Cojines",
-    description:
-      "Agrega un toque de confort y estilo a tu hogar. ¡Cojines de todos los tamaños, colores y diseños!",
-  },
-  {
-    id: 51,
-    name: " Cojines De Exterior",
-    image: "../../public/Images/TapisadoAlfombrando.jpeg",
-    category: "Cojines",
-    description:
-      "Viste tus paredes con estilo y personalidad. ¡Papel de colgadura para todos los gustos y presupuestos!",
-  },
   // Categoría: Grama Sintética
   {
-    id: 52,
+    id: 38,
     name: "Grama Sintética De Colores",
     image: "../../public/Images/Cogines.jpeg",
     category: "GramaSintetica",
@@ -444,7 +313,7 @@ export const dataProduct = [
       "Disfruta de un jardín verde todo el año sin las molestias del mantenimiento. ¡Grama sintética de alta calidad!",
   },
   {
-    id: 53,
+    id: 39,
     name: "Grama Sintética Paisajismo",
     image: "../../public/Images/Cogines.jpeg",
     category: "GramaSintetica",
@@ -452,16 +321,145 @@ export const dataProduct = [
       "Disfruta de un jardín verde todo el año sin las molestias del mantenimiento. ¡Grama sintética de alta calidad!",
   },
   {
-    id: 54,
+    id: 40,
     name: "Grama Sintética Punzonada",
     image: "../../public/Images/Cogines.jpeg",
     category: "GramaSintetica",
     description:
       "Disfruta de un jardín verde todo el año sin las molestias del mantenimiento. ¡Grama sintética de alta calidad!",
   },
-  // Categoría: Accesorios
+  // Categoría: Muebles de Exterior
+  {
+    id: 41,
+    name: "Comedores",
+    image: "../../public/Images/MueblesExteriorW.jpg",
+    category: "MueblesExterior",
+    description:
+      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
+  },
+  {
+    id: 42,
+    name: "Salas",
+    image: "../../public/Images/MueblesExteriorW.jpg",
+    category: "MueblesExterior",
+    description:
+      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
+  },
+  {
+    id: 43,
+    name: "Set De Balcon",
+    image: "../../public/Images/MueblesExteriorW.jpg",
+    category: "MueblesExterior",
+    description:
+      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
+  },
+  {
+    id: 44,
+    name: "Asoleadores",
+    image: "../../public/Images/MueblesExteriorW.jpg",
+    category: "MueblesExterior",
+    description:
+      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
+  },
+  {
+    id: 45,
+    name: "Pagodas",
+    image: "../../public/Images/Pagodas.jpg",
+    category: "MueblesExterior",
+    description:
+      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
+  },
+  {
+    id: 46,
+    name: "Pagodas Rey",
+    image: "../../public/Images/Pagodas.jpg",
+    category: "MueblesExterior",
+    description:
+      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
+  },
+  {
+    id: 47,
+    name: "Toldos De Brazos",
+    image: "../../public/Images/MueblesExteriorW.jpg",
+    category: "MueblesExterior",
+    description:
+      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
+  },
+  {
+    id: 48,
+    name: "Toldos De Brazos",
+    image: "../../public/Images/MueblesExteriorW.jpg",
+    category: "MueblesExterior",
+    description:
+      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
+  },
+  {
+    id: 49,
+    name: "Toldos De Brazos Enrollables",
+    image: "../../public/Images/MueblesExteriorW.jpg",
+    category: "MueblesExterior",
+    description:
+      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
+  },
+  {
+    id: 50,
+    name: "Toldos Verticales",
+    image: "../../public/Images/MueblesExteriorW.jpg",
+    category: "MueblesExterior",
+    description:
+      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
+  },
+  {
+    id: 51,
+    name: "Pergolas Romanas",
+    image: "../../public/Images/MueblesExteriorW.jpg",
+    category: "MueblesExterior",
+    description:
+      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
+  },
+  {
+    id: 52,
+    name: "Sombrillas",
+    image: "../../public/Images/MueblesExteriorW.jpg",
+    category: "MueblesExterior",
+    description:
+      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
+  },
+  {
+    id: 53,
+    name: "Toldos De DobleProyeccion",
+    image: "../../public/Images/MueblesExteriorW.jpg",
+    category: "MueblesExterior",
+    description:
+      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
+  },
+  {
+    id: 54,
+    name: "Persianas Z-Box",
+    image: "../../public/Images/MueblesExteriorW.jpg",
+    category: "MueblesExterior",
+    description:
+      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
+  },
   {
     id: 55,
+    name: "Mesas Auxiliares",
+    image: "../../public/Images/MueblesExteriorW.jpg",
+    category: "MueblesExterior",
+    description:
+      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
+  },
+  {
+    id: 56,
+    name: "Sillas Auxiliares",
+    image: "../../public/Images/MueblesExteriorW.jpg",
+    category: "MueblesExterior",
+    description:
+      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
+  },
+  // Categoría: Accesorios
+  {
+    id: 57,
     name: "Materos",
     image: "../../public/Images/Accesorios.jpeg",
     category: "Accesorios",

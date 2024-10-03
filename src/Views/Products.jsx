@@ -36,18 +36,20 @@ function Products() {
             <div key={product.id} className="product-card">
               <h2>{product.name}</h2>
               <div className="container-left">
-              <img
-                alt={product.name}
-                src={product.image}
-                style={{
-                  objectFit: "cover",
-                }}
-              />
-              <p>{product.description}</p>
-              {/* Añadir la imagen QR y el texto "Escanéame y cotiza tu [categoría]" */}
+                {product.id === 26 ? (
+                  <video
+                    src={product.videoUrl}
+                    controls
+                    autoPlay
+                    loop
+                    muted
+                    className="product-video"
+                  />
+                ) : (
+                  <img alt={product.name} src={product.image} />
+                )}
+                <p>{product.description}</p>
               </div>
-        
-          
               <img
                 src="../../public/Images/qrAlfombrando.jpg"
                 alt="Código QR para cotizar en WhatsApp"
