@@ -6,14 +6,6 @@ import "./CardProducts.css";
 const products = [
   {
     id: 1,
-    name: "Tapetes",
-    image: "/public/Images/ImagesProducts/TapeteSilverHouse.jpeg",
-    category: "Tapetes",
-    description:
-      "Un toque de calidez y personalidad para cada rincón de tu hogar. ¡Elige entre una gran variedad de diseños y colores!. ",
-  },
-  {
-    id: 2,
     name: "Alfombras",
     image: "/public/Images/ImagesProducts/Alfombras.jpg",
     category: "Alfombras",
@@ -21,7 +13,23 @@ const products = [
       "Convierte tus pisos en obras de arte con nuestras alfombras de ensueño. ¡Suavidad, estilo y comodidad para tu hogar!",
   },
   {
+    id: 2,
+    name: "Tapetes",
+    image: "/public/Images/ImagesProducts/TapeteSilverHouse.jpeg",
+    category: "Tapetes",
+    description:
+      "Un toque de calidez y personalidad para cada rincón de tu hogar. ¡Elige entre una gran variedad de diseños y colores!. ",
+  },
+  {
     id: 3,
+    name: "Cojines",
+    image: "/public/Images/ImagesProducts/Cogines.jpeg",
+    category: "Cojines",
+    description:
+      "Agrega un toque de confort y estilo a tu hogar. ¡Cojines de todos los tamaños, colores y diseños!",
+  },
+  {
+    id: 4,
     name: "Cortinas",
     image: "/public/Images/ImagesProducts/CortinasClaras.jpeg",
     category: "Cortinas",
@@ -29,20 +37,12 @@ const products = [
       "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!.",
   },
   {
-    id: 4,
-    name: "Muebles y Productos Para Exterior",
-    image: "/public/Images/ImagesProducts/MueblesExteriorW.jpg",
-    category: "MueblesExterior",
-    description:
-      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!.",
-  },
-  {
     id: 5,
-    name: "Pisos",
-    image: "/public/Images/ImagesProducts/Pisos.png",
-    category: "Pisos",
+    name: "Panel Wall",
+    image: "/public/Images/ImagesProducts/panelwall2.jpeg",
+    category: "panelwall",
     description:
-      "Dale un nuevo look a tus espacios con nuestros pisos de alta calidad. ¡Durabilidad, belleza y diseños para todos los gustos!",
+      "Decora tus paredes de forma moderna y original. ¡Panel Wall para crear espacios únicos! ",
   },
   {
     id: 6,
@@ -54,27 +54,27 @@ const products = [
   },
   {
     id: 7,
-    name: "Panel Wall",
-    image: "/public/Images/ImagesProducts/panelwall2.jpeg",
-    category: "panelwall",
+    name: "Pisos",
+    image: "/public/Images/ImagesProducts/Pisos.png",
+    category: "Pisos",
     description:
-      "Decora tus paredes de forma moderna y original. ¡Panel Wall para crear espacios únicos! ",
+      "Dale un nuevo look a tus espacios con nuestros pisos de alta calidad. ¡Durabilidad, belleza y diseños para todos los gustos!",
   },
   {
     id: 8,
-    name: "Cojines",
-    image: "/public/Images/ImagesProducts/Cogines.jpeg",
-    category: "Cojines",
-    description:
-      "Agrega un toque de confort y estilo a tu hogar. ¡Cojines de todos los tamaños, colores y diseños!",
-  },
-  {
-    id: 9,
     name: "Grama Sintetica",
     image: "/public/Images/ImagesProducts/GramaSinteticaP.jpg",
     category: "GramaSintetica",
     description:
       "Disfruta de un jardín verde todo el año sin las molestias del mantenimiento. ¡Grama sintética de alta calidad!",
+  },
+  {
+    id: 9,
+    name: "Muebles y Productos Para Exterior",
+    image: "/public/Images/ImagesProducts/MueblesExteriorW.jpg",
+    category: "MueblesExterior",
+    description:
+      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!.",
   },
   {
     id: 10,

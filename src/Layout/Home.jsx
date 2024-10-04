@@ -3,15 +3,15 @@ import CardProducts from "../Components/CardProducts/CardProducts";
 import Header from "../Components/Header/Header";
 import Banner from "../Components/Banner/Banner";
 import Footer from "../Components/Footer/Footer";
-import NavServices from "../Components/NavServices/NavServices";
+import CardServices from "../Components/CardServices/CardServices";
 import Redes from "../Components/Redes/Redes";
 import About from "../Components/About/About";
 import { FaSquareWhatsapp } from "react-icons/fa6";
 import "./Home.css";
 
 export const Home = () => {
-  const [scrollY, setScrollY] = useState(0); // Keep this declaration
-  const [showModal, setShowModal] = useState(false); // State for modal control
+  const [setScrollY] = useState(0); // Keep this declaration
+  
 
   const handleScroll = () => {
     setScrollY(window.scrollY);
@@ -29,7 +29,7 @@ export const Home = () => {
       <Header />
       <Banner />
       <CardProducts />
-      <NavServices />
+      <CardServices />
       <About />
       <a
         href="https://wa.me/3105385315" // Replace with your WhatsApp number
