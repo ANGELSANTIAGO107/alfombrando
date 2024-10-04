@@ -78,7 +78,10 @@
     .info-services {
         width: 80%; /* Ajusta el ancho */
     }
-
+    .img-services {
+        width: 100%;
+        height: 300px;
+    }
     .nav-services {
         width: 80%; /* Ajusta el ancho */
         justify-content: center; /* Centra el contenido */

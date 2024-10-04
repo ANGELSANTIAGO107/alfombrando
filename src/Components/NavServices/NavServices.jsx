@@ -109,11 +109,6 @@ function NavServices() {
               text: "Disfruta de la belleza natural de la madera. Instalación y restauración de pisos de madera maciza",
               img: "/public/Images/ImagesServices/EscalerasMadera.jpeg",
             },
-            {
-              id: "9",
-              text: "Dale vanguardia y elegancia a tu hogar con la instalacion de PanelWall",
-              img:"/public/Images/ImagesServices/InstalacionPanelWall.jpg"
-            },
           ].map((service) => (
             <div key={service.id} className="services-card">
               <Link to={`/Services/${service.id}`}>
