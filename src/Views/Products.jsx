@@ -2,6 +2,7 @@ import { useContext } from "react";
 import Header from "../Components/Header/Header";
 import { ProductContextValues } from "../Context/ProductsContext";
 import Footer from "../Components/Footer/Footer";
+import Error404 from "../Components/Error404/Error404";
 import "./Products.css";
 
 function Products() {
@@ -61,7 +62,9 @@ function Products() {
             </div>
           ))
         ) : (
-          <p>No se encontraron productos para la categoría seleccionada.</p>
+           <div>
+            <Error404/>
+            </div>
         )}
       </div>
       <Footer />

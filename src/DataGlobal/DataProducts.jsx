@@ -348,7 +348,7 @@ export const dataProduct = [
   {
     id: 42,
     name: "Salas",
-    image: "../../public/Images/MueblesExteriorW.jpg",
+    image: "../../public/Images/ImagesProducts/Salas.jpg",
     category: "MueblesExterior",
     description:
       "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
@@ -356,7 +356,7 @@ export const dataProduct = [
   {
     id: 43,
     name: "Set De Balcon",
-    image: "../../public/Images/MueblesExteriorW.jpg",
+    image: "../../public/Images/ImagesProducts/Salas.jpg",
     category: "MueblesExterior",
     description:
       "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
@@ -364,7 +364,7 @@ export const dataProduct = [
   {
     id: 44,
     name: "Asoleadores",
-    image: "../../public/Images/MueblesExteriorW.jpg",
+    image: "../../public/Images/ImagesProducts/Asoleadoras.jpg",
     category: "MueblesExterior",
     description:
       "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
@@ -372,7 +372,7 @@ export const dataProduct = [
   {
     id: 45,
     name: "Pagodas",
-    image: "../../public/Images/Pagodas.jpg",
+    image: "../../public/Images/ImagesProducts/Pagodas.jpg",
     category: "MueblesExterior",
     description:
       "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
@@ -380,15 +380,7 @@ export const dataProduct = [
   {
     id: 46,
     name: "Toldos De Brazos",
-    image: "../../public/Images/MueblesExteriorW.jpg",
-    category: "MueblesExterior",
-    description:
-      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
-  },
-  {
-    id: 47,
-    name: "Toldos De Brazos",
-    image: "../../public/Images/MueblesExteriorW.jpg",
+    image: "../../public/Images/ImagesProducts/ToldosDeBrazos.jpg",
     category: "MueblesExterior",
     description:
       "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
@@ -396,7 +388,7 @@ export const dataProduct = [
   {
     id: 48,
     name: "Toldos Verticales",
-    image: "../../public/Images/MueblesExteriorW.jpg",
+    image: "../../public/Images/ImagesProducts/ToldosVerticales.jpg",
     category: "MueblesExterior",
     description:
       "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
@@ -404,7 +396,7 @@ export const dataProduct = [
   {
     id: 49,
     name: "Pergolas Romanas",
-    image: "../../public/Images/MueblesExteriorW.jpg",
+    image: "../../public/Images/ImagesProducts/PergolasRomanas.jpg",
     category: "MueblesExterior",
     description:
       "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
@@ -412,7 +404,7 @@ export const dataProduct = [
   {
     id: 50,
     name: "Sombrillas",
-    image: "../../public/Images/MueblesExteriorW.jpg",
+    image: "../../public/Images/ImagesProducts/Sombrillas.jpg",
     category: "MueblesExterior",
     description:
       "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
@@ -420,7 +412,7 @@ export const dataProduct = [
   {
     id: 51,
     name: "Toldos De DobleProyección",
-    image: "../../public/Images/MueblesExteriorW.jpg",
+    image: "../../public/Images/ImagesProducts/ToldosDeDobleProteccion.jpg",
     category: "MueblesExterior",
     description:
       "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
@@ -428,7 +420,7 @@ export const dataProduct = [
   {
     id: 52,
     name: "Persianas Z-Box",
-    image: "../../public/Images/MueblesExteriorW.jpg",
+    image: "../../public/Images/ImagesProducts/Z-Box.jpg",
     category: "MueblesExterior",
     description:
       "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
@@ -436,7 +428,7 @@ export const dataProduct = [
   {
     id: 53,
     name: "Mesas Auxiliares",
-    image: "../../public/Images/MueblesExteriorW.jpg",
+    image: "../../public/Images/ImagesProducts/MesasAuxiliares.jpg",
     category: "MueblesExterior",
     description:
       "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
@@ -444,7 +436,7 @@ export const dataProduct = [
   {
     id: 54,
     name: "Sillas Auxiliares",
-    image: "../../public/Images/MueblesExteriorW.jpg",
+    image: "../../public/Images/ImagesProducts/SillasAuxiliares1.jpg",
     category: "MueblesExterior",
     description:
       "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",

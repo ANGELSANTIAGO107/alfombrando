@@ -71,7 +71,7 @@ function CardServices() {
             },
             {
               id: "4",
-              text: "Instalación de pisos SPC y SPC de click y laminados",
+              text: "Instalación de pisos SPC y SPC de clic y laminados",
               img: "/public/Images/ImagesServices/InstalacionDePisosSPC.jpg",
             },
             {
@@ -108,11 +108,6 @@ function CardServices() {
               id: "11",
               text: "Disfruta de la belleza natural de la madera. Instalación y restauración de pisos de madera maciza",
               img: "/public/Images/ImagesServices/EscalerasMadera.jpeg",
-            },
-            {
-              id: "9",
-              text: "Dale vanguardia y elegancia a tu hogar con la instalacion de PanelWall",
-              img:"/public/Images/ImagesServices/InstalacionPanelWall.jpg"
             },
           ].map((service) => (
             <div key={service.id} className="services-card">

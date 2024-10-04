@@ -100,8 +100,14 @@ function CardProducts() {
   const [visibleProducts, setVisibleProducts] = useState(3);
 
   const handleButtonClick = (category) => {
-    context.setMenuData(category);
-    navigate(`/Products`);
+    if (category === "ProductosDeAseo") {
+      context.setMenuData(category);
+      navigate(`/ProductsAseo`);
+    }else{
+      context.setMenuData(category);
+      navigate('/Products')
+    }
+    
   };
 
   const loadMoreProducts = () => {
