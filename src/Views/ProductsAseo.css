@@ -1,0 +1,10 @@
+.ProductsAseo-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    padding-top: 80px;
+    /* Espacio ajustado */
+    min-height: 100vh;
+    /* Ocupar toda la altura de la página */
+    background-color: #f8f8f8;
+}

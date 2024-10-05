@@ -15,7 +15,7 @@ const products = [
   {
     id: 2,
     name: "Tapetes",
-    image: "/public/Images/ImagesProducts/TapeteSilverHouse.jpeg",
+    image: "/public/Images/ImagesProducts/TapetePrincipal.jpg",
     category: "Tapetes",
     description:
       "Un toque de calidez y personalidad para cada rincón de tu hogar. ¡Elige entre una gran variedad de diseños y colores!. ",
@@ -47,7 +47,7 @@ const products = [
   {
     id: 6,
     name: "Papel De Colgadura",
-    image: "/public/Images/ImagesProducts/PapelDeColgadura.jpg",
+    image: "/public/Images/ImagesProducts/PapelDeColgaduraPrincipal.jpg",
     category: "PapelColgadura",
     description:
       "Viste tus paredes con estilo y personalidad. ¡Papel de colgadura para todos los gustos y presupuestos!",
@@ -84,6 +84,14 @@ const products = [
     description:
       "Productos que agregan un toque de belleza y elegancia para tu espacio preferido.!",
   },
+  {
+    id: 11,
+    name: "Productos De Aseo",
+    image: "/public/Images/ImagesProducts/ProductosDeAseoPrincipal.png",
+    category: "ProductosDeAseo",
+    description:
+      "¿Buscas productos de aseo de calidad? ¡En Alfombrando los tenemos todos! Desde traperos hasta quitamanchas, todo lo que necesitas para un hogar limpio y reluciente te espera.",
+  },
 ];
 
 function CardProducts() {
@@ -92,8 +100,14 @@ function CardProducts() {
   const [visibleProducts, setVisibleProducts] = useState(3);
 
   const handleButtonClick = (category) => {
-    context.setMenuData(category);
-    navigate(`/Products`);
+    if (category === "ProductosDeAseo") {
+      context.setMenuData(category);
+      navigate(`/ProductsAseo`);
+    }else{
+      context.setMenuData(category);
+      navigate('/Products')
+    }
+    
   };
 
   const loadMoreProducts = () => {

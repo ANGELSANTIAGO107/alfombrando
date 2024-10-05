@@ -54,7 +54,7 @@
 }
 
 .img-services {
-    width: 100%;
+    width: 83%;
     height: 388px;
     /* Fija una altura para todas las imágenes */
     object-fit: cover;

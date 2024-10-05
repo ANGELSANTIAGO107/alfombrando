@@ -71,7 +71,7 @@ function CardServices() {
             },
             {
               id: "4",
-              text: "Instalación de pisos SPC y SPC de click y laminados",
+              text: "Instalación de pisos SPC y SPC de clic y laminados",
               img: "/public/Images/ImagesServices/InstalacionDePisosSPC.jpg",
             },
             {

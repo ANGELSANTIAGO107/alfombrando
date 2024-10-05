@@ -133,4 +133,35 @@ width: 90%;
   .product-card img, .product-video {
     height: 200px; /* Reducir la altura en pantallas pequeñas */
   }
+
+.no-products-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;  
+  height: 300px;
+  /* Puedes ajustar la altura según sea necesario */
+  text-align: center !important;
+  color: #555;
+  /* Color del texto */
+  margin-top: 50px;
+
+}
+
+.no-products-icon {
+  font-size: 80px;
+  /* Tamaño del icono */
+  color: #d9534f;
+  /* Color del icono (puedes cambiarlo según tu preferencia) */
+  margin-bottom: 10px;
+  /* Espacio entre el icono y el texto */
+}
+
+.no-products-text {
+  font-size: 24px;
+  /* Tamaño de la letra del texto */
+  font-weight: bold;
+  color: #333;
+  /* Color del texto */
+}
 }

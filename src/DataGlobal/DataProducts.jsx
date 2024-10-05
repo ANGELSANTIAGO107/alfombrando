@@ -48,6 +48,14 @@ export const dataProduct = [
     description:
       "Pisos que enamoran a primera vista. Nuestras alfombras combinan suavidad, estilo y la más alta calidad.",
   },
+  {
+    id: 6,
+    name: "Alfombras Caminos",
+    image: "../../public/Images/ImagesProducts/AlfombrasCaminos.png",
+    category: "Alfombras",
+    description:
+      "Nuestros caminos transforman tus espacios, añadiendo un toque de elegancia y sofisticación a cada paso.",
+  },
   // Categoría: Tapetes
   {
     id: 7,
@@ -266,7 +274,7 @@ export const dataProduct = [
   {
     id: 33,
     name: "Pisos Laminados",
-    image: "../../public/Images/Cogines.jpeg",
+    image: "../../public/Images/ImagesProducts/PisosLaminados.jpg",
     category: "Pisos",
     description:
       "Dale un nuevo look a tus espacios con nuestros pisos de alta calidad. ¡Durabilidad, belleza y diseños para todos los gustos!",
@@ -274,7 +282,7 @@ export const dataProduct = [
   {
     id: 34,
     name: "Pisos SPC",
-    image: "../../public/Images/Cogines.jpeg",
+    image: "../../public/Images/ImagesProducts/PisosSpc.jpg",
     category: "Pisos",
     description:
       "Dale un nuevo look a tus espacios con nuestros pisos de alta calidad. ¡Durabilidad, belleza y diseños para todos los gustos!",
@@ -282,7 +290,7 @@ export const dataProduct = [
   {
     id: 35,
     name: "Pisos PVC",
-    image: "../../public/Images/Cogines.jpeg",
+    image: "../../public/Images/ImagesProducts/PisosLaminadosPvc.jpeg",
     category: "Pisos",
     description:
       "Dale un nuevo look a tus espacios con nuestros pisos de alta calidad. ¡Durabilidad, belleza y diseños para todos los gustos!",
@@ -290,7 +298,7 @@ export const dataProduct = [
   {
     id: 36,
     name: "Pisos En Madera Maciza",
-    image: "../../public/Images/TapisadoAlfombrando.jpeg",
+    image: "../../public/Images/ImagesProducts/PisosEnMaderaMaciza.jpg  ",
     category: "Pisos",
     description:
       "Viste tus paredes con estilo y personalidad. ¡Papel de colgadura para todos los gustos y presupuestos!",
@@ -298,7 +306,7 @@ export const dataProduct = [
   {
     id: 37,
     name: "Pisos Vinilo En Rollo",
-    image: "../../public/Images/TapisadoAlfombrando.jpeg",
+    image: "../../public/Images/ImagesProducts/PisosDeViniloEnRollo.webp",
     category: "Pisos",
     description:
       "Viste tus paredes con estilo y personalidad. ¡Papel de colgadura para todos los gustos y presupuestos!",
@@ -307,7 +315,7 @@ export const dataProduct = [
   {
     id: 38,
     name: "Grama Sintética De Colores",
-    image: "../../public/Images/Cogines.jpeg",
+    image: "../../public/Images/ImagesProducts/GramaSinteticaColores.jpg",
     category: "GramaSintetica",
     description:
       "Disfruta de un jardín verde todo el año sin las molestias del mantenimiento. ¡Grama sintética de alta calidad!",
@@ -315,7 +323,7 @@ export const dataProduct = [
   {
     id: 39,
     name: "Grama Sintética Paisajismo",
-    image: "../../public/Images/Cogines.jpeg",
+    image: "../../public/Images/ImagesProducts/GramaSinteticaPaisajismo.jpg",
     category: "GramaSintetica",
     description:
       "Disfruta de un jardín verde todo el año sin las molestias del mantenimiento. ¡Grama sintética de alta calidad!",
@@ -323,7 +331,7 @@ export const dataProduct = [
   {
     id: 40,
     name: "Grama Sintética Punzonada",
-    image: "../../public/Images/Cogines.jpeg",
+    image: "../../public/Images/ImagesProducts/GramaSinteticaPunzonada.jpg",
     category: "GramaSintetica",
     description:
       "Disfruta de un jardín verde todo el año sin las molestias del mantenimiento. ¡Grama sintética de alta calidad!",
@@ -332,7 +340,7 @@ export const dataProduct = [
   {
     id: 41,
     name: "Comedores",
-    image: "../../public/Images/MueblesExteriorW.jpg",
+    image: "../../public/Images/ImagesProducts/ComedoresExterior.jpg",
     category: "MueblesExterior",
     description:
       "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
@@ -340,7 +348,7 @@ export const dataProduct = [
   {
     id: 42,
     name: "Salas",
-    image: "../../public/Images/MueblesExteriorW.jpg",
+    image: "../../public/Images/ImagesProducts/Salas.jpg",
     category: "MueblesExterior",
     description:
       "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
@@ -348,7 +356,7 @@ export const dataProduct = [
   {
     id: 43,
     name: "Set De Balcon",
-    image: "../../public/Images/MueblesExteriorW.jpg",
+    image: "../../public/Images/ImagesProducts/Salas.jpg",
     category: "MueblesExterior",
     description:
       "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
@@ -356,7 +364,7 @@ export const dataProduct = [
   {
     id: 44,
     name: "Asoleadores",
-    image: "../../public/Images/MueblesExteriorW.jpg",
+    image: "../../public/Images/ImagesProducts/Asoleadoras.jpg",
     category: "MueblesExterior",
     description:
       "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
@@ -364,106 +372,98 @@ export const dataProduct = [
   {
     id: 45,
     name: "Pagodas",
-    image: "../../public/Images/Pagodas.jpg",
+    image: "../../public/Images/ImagesProducts/Pagodas.jpg",
     category: "MueblesExterior",
     description:
       "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
   },
   {
     id: 46,
-    name: "Pagodas Rey",
-    image: "../../public/Images/Pagodas.jpg",
-    category: "MueblesExterior",
-    description:
-      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
-  },
-  {
-    id: 47,
     name: "Toldos De Brazos",
-    image: "../../public/Images/MueblesExteriorW.jpg",
+    image: "../../public/Images/ImagesProducts/ToldosDeBrazos.jpg",
     category: "MueblesExterior",
     description:
       "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
   },
   {
     id: 48,
-    name: "Toldos De Brazos",
-    image: "../../public/Images/MueblesExteriorW.jpg",
+    name: "Toldos Verticales",
+    image: "../../public/Images/ImagesProducts/ToldosVerticales.jpg",
     category: "MueblesExterior",
     description:
       "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
   },
   {
     id: 49,
-    name: "Toldos De Brazos Enrollables",
-    image: "../../public/Images/MueblesExteriorW.jpg",
+    name: "Pergolas Romanas",
+    image: "../../public/Images/ImagesProducts/PergolasRomanas.jpg",
     category: "MueblesExterior",
     description:
       "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
   },
   {
     id: 50,
-    name: "Toldos Verticales",
-    image: "../../public/Images/MueblesExteriorW.jpg",
+    name: "Sombrillas",
+    image: "../../public/Images/ImagesProducts/Sombrillas.jpg",
     category: "MueblesExterior",
     description:
       "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
   },
   {
     id: 51,
-    name: "Pergolas Romanas",
-    image: "../../public/Images/MueblesExteriorW.jpg",
+    name: "Toldos De DobleProyección",
+    image: "../../public/Images/ImagesProducts/ToldosDeDobleProteccion.jpg",
     category: "MueblesExterior",
     description:
       "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
   },
   {
     id: 52,
-    name: "Sombrillas",
-    image: "../../public/Images/MueblesExteriorW.jpg",
+    name: "Persianas Z-Box",
+    image: "../../public/Images/ImagesProducts/Z-Box.jpg",
     category: "MueblesExterior",
     description:
       "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
   },
   {
     id: 53,
-    name: "Toldos De DobleProyeccion",
-    image: "../../public/Images/MueblesExteriorW.jpg",
+    name: "Mesas Auxiliares",
+    image: "../../public/Images/ImagesProducts/MesasAuxiliares.jpg",
     category: "MueblesExterior",
     description:
       "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
   },
   {
     id: 54,
-    name: "Persianas Z-Box",
-    image: "../../public/Images/MueblesExteriorW.jpg",
-    category: "MueblesExterior",
-    description:
-      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
-  },
-  {
-    id: 55,
-    name: "Mesas Auxiliares",
-    image: "../../public/Images/MueblesExteriorW.jpg",
-    category: "MueblesExterior",
-    description:
-      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
-  },
-  {
-    id: 56,
     name: "Sillas Auxiliares",
-    image: "../../public/Images/MueblesExteriorW.jpg",
+    image: "../../public/Images/ImagesProducts/SillasAuxiliares1.jpg",
     category: "MueblesExterior",
     description:
       "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
   },
   // Categoría: Accesorios
   {
-    id: 57,
-    name: "Materos",
-    image: "../../public/Images/Accesorios.jpeg",
+    id: 55,
+    name: "MaterosJaure",
+    image: "../../public/Images/ImagesProducts/MaterosJaure.jpg",
     category: "Accesorios",
     description:
-      "Encuentra accesorios únicos para tu hogar. ¡Calidad y estilo en cada detalle!",
+      "Forjado en el tiempo, el matero Jaure es un legado ancestral que combina la fuerza de la naturaleza con la elegancia del diseño. Una obra maestra para los amantes de lo auténtico.",
+  },
+  {
+    id: 56,
+    name: "MaterosMae",
+    image: "../../public/Images/ImagesProducts/MaterosMae.jpg",
+    category: "Accesorios",
+    description:
+      "Elegancia atemporal en cada curva. Este matero, elaborado con esmero, es una invitación a disfrutar de los pequeños placeres de la vida. Un compañero fiel para momentos inolvidables.",
+  },
+  {
+    id: 57,
+    name: "MaterosSaka",
+    image: "../../public/Images/ImagesProducts/MaterosSaka.jpg",
+    category: "Accesorios",
+    description:
+      "Un diseño minimalista, esculpido en gris, que fusiona la estética industrial con la calidez artesanal. Una pieza única que transforma cualquier espacio en un oasis de tranquilidad.",
   },
 ];
