@@ -35,7 +35,7 @@ export const Home = () => {
       <About />
       <SectionAlcop />
       <a
-       href="https://wa.me/573101234567" // Replace with your WhatsApp number
+       href="https://wa.me/573105385315" // Replace with your WhatsApp number
         target="_blank"
         rel="noopener noreferrer"
         className="whatsapp-icon"
