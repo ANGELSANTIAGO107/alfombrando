@@ -1,11 +1,10 @@
 import "./SectionAlcop.css";
-
 function SectionAlcop() {
   return (
     <div className="location-container">
       <div className="map-section">
         <img
-          src="/public/Images/map.png"
+          src="/Images/map.png"
           alt="Mapa de la ubicación"
           className="small-image"
         ></img>
