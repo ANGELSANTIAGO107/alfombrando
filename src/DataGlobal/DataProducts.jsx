@@ -3,7 +3,7 @@ export const dataProduct = [
   {
     id: 1,
     name: "Alfombras 1.60cm * 2.30cm",
-    image: "../../public/Images/ImagesProducts/Alfombradostreinta.jpg",
+    image: "/Images/ImagesProducts/Alfombradostreinta.jpg",
     category: "Alfombras",
     description:
       "Convierte tus pisos en obras de arte con nuestras alfombras de ensueño. ¡Suavidad, estilo y comodidad para tu hogar!",
@@ -11,7 +11,7 @@ export const dataProduct = [
   {
     id: 2,
     name: "Alfombras 1.20cm * 1.70cm",
-    image: "../../public/Images/ImagesProducts/AlfombrasUnoSetenta.jpg",
+    image: "/Images/ImagesProducts/AlfombrasUnoSetenta.jpg",
     category: "Alfombras",
     description:
       "Transforma tus espacios en refugios de confort con nuestras alfombras de diseño. ¡Suavidad, estilo y calidez bajo tus pies!",
@@ -19,7 +19,7 @@ export const dataProduct = [
   {
     id: 3,
     name: "Alfombras 2.00cm * 2.90cm",
-    image: "../../public/Images/ImagesProducts/AlfombraDosMetros.jpg",
+    image: "/Images/ImagesProducts/AlfombraDosMetros.jpg",
     category: "Alfombras",
     description:
       "Descubre la magia de Oriente en cada fibra. Nuestras alfombras te transportarán a mundos lejanos con suavidad y estilo.",
@@ -27,7 +27,7 @@ export const dataProduct = [
   {
     id: 4,
     name: "Alfombras 2.50cm * 3.40cm",
-    image: "../../public/Images/ImagesProducts/AlfombrasDosMetrosCuarenta.jpeg",
+    image: "/Images/ImagesProducts/AlfombrasDosMetrosCuarenta.jpeg",
     category: "Alfombras",
     description:
       "Eleva la elegancia de tu hogar con nuestras alfombras artesanales. Diseño exclusivo, suavidad incomparable y durabilidad sin igual.",
@@ -35,7 +35,7 @@ export const dataProduct = [
   {
     id: 5,
     name: "Alfombras Modulares",
-    image: "../../public/Images/ImagesProducts/AlfombrasModulares.jpg",
+    image: "/Images/ImagesProducts/AlfombrasModulares.jpg",
     category: "Alfombras",
     description:
       "Convierte cada paso en una experiencia única. Nuestras alfombras te ofrecen suavidad, estilo y confort en cada rincón de tu hogar",
@@ -43,7 +43,7 @@ export const dataProduct = [
   {
     id: 6,
     name: "Alfombras en Rollo",
-    image: "../../public/Images/ImagesProducts/AlfombraEnRollo.jpg",
+    image: "/Images/ImagesProducts/AlfombraEnRollo.jpg",
     category: "Alfombras",
     description:
       "Pisos que enamoran a primera vista. Nuestras alfombras combinan suavidad, estilo y la más alta calidad.",
@@ -51,7 +51,7 @@ export const dataProduct = [
   {
     id: 6,
     name: "Alfombras Caminos",
-    image: "../../public/Images/ImagesProducts/AlfombrasCaminos.png",
+    image: "/Images/ImagesProducts/AlfombrasCaminos.png",
     category: "Alfombras",
     description:
       "Nuestros caminos transforman tus espacios, añadiendo un toque de elegancia y sofisticación a cada paso.",
@@ -60,7 +60,7 @@ export const dataProduct = [
   {
     id: 7,
     name: "Tapetes AtrapaMugre",
-    image: "../../public/Images/ImagesProducts/TapetesAtrapaMugre1.jpg",
+    image: "/Images/ImagesProducts/TapetesAtrapaMugre1.jpg",
     category: "Tapetes",
     description:
       "Adiós manchas, hola tranquilidad. Nuestros tapetes atrapamugre son la solución perfecta para mantener tu piso impecable.",
@@ -68,7 +68,7 @@ export const dataProduct = [
   {
     id: 8,
     name: "Tapete AtrapaHumedad",
-    image: "../../public/Images/ImagesProducts/AtrapaHumedad.jpg",
+    image: "/Images/ImagesProducts/AtrapaHumedad.jpg",
     category: "Tapetes",
     description:
       "Di adiós a los charcos y a los malos olores. Nuestros tapetes atrapahumedad te brindan un ambiente más saludable.",
@@ -76,7 +76,7 @@ export const dataProduct = [
   {
     id: 9,
     name: "Tapete Para Cocina",
-    image: "../../public/Images/ImagesProducts/TapetesParaCocina.jpg",
+    image: "/Images/ImagesProducts/TapetesParaCocina.jpg",
     category: "Tapetes",
     description:
       "Un toque de calidez y personalidad para cada rincón de tu hogar. ¡Elige entre una gran variedad de diseños y colores!",
@@ -85,7 +85,7 @@ export const dataProduct = [
   {
     id: 10,
     name: "Tapete Para La Entrada",
-    image: "../../public/Images/ImagesProducts/TapeteParaLaEntrada.jpg",
+    image: "/Images/ImagesProducts/TapeteParaLaEntrada.jpg",
     category: "Tapetes",
     description:
       "Un toque de calidez y personalidad para cada rincón de tu hogar. ¡Elige entre una gran variedad de diseños y colores!",
@@ -94,7 +94,7 @@ export const dataProduct = [
   {
     id: 11,
     name: "Cojin De Interior",
-    image: "../../public/Images/ImagesProducts/cojines.jpg",
+    image: "/Images/ImagesProducts/cojines.jpg",
     category: "Cojines",
     description:
       "Agrega un toque de confort y estilo a tu hogar. ¡Cojines de todos los tamaños, colores y diseños!",
@@ -102,7 +102,7 @@ export const dataProduct = [
   {
     id: 12,
     name: " Cojines De Exterior",
-    image: "../../public/Images/ImagesProducts/CojinesDeExterior.jpg",
+    image: "/Images/ImagesProducts/CojinesDeExterior.jpg",
     category: "Cojines",
     description:
       "Viste tus paredes con estilo y personalidad. ¡Papel de colgadura para todos los gustos y presupuestos!",
@@ -111,7 +111,7 @@ export const dataProduct = [
   {
     id: 13,
     name: "Cortinas Tradicionales",
-    image: "../../public/Images/ImagesProducts/CortinasTradicionales.jpg",
+    image: "/Images/ImagesProducts/CortinasTradicionales.jpg",
     category: "Cortinas",
     description:
       "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
@@ -119,7 +119,7 @@ export const dataProduct = [
   {
     id: 14,
     name: "Panel Japones",
-    image: "../../public/Images/ImagesProducts/PanelJapones.jpg",
+    image: "/Images/ImagesProducts/PanelJapones.jpg",
     category: "Cortinas",
     description:
       "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
@@ -127,7 +127,7 @@ export const dataProduct = [
   {
     id: 15,
     name: "SheerElegance",
-    image: "../../public/Images/ImagesProducts/SheerElegance.jpg",
+    image: "/Images/ImagesProducts/SheerElegance.jpg",
     category: "Cortinas",
     description:
       "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
@@ -135,7 +135,7 @@ export const dataProduct = [
   {
     id: 16,
     name: "Cortinas Enrollables",
-    image: "../../public/Images/ImagesProducts/Enrollable.jpg",
+    image: "/Images/ImagesProducts/Enrollable.jpg",
     category: "Cortinas",
     description:
       "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
@@ -143,7 +143,7 @@ export const dataProduct = [
   {
     id: 17,
     name: "MacroMaderas",
-    image: "../../public/Images/ImagesProducts/MacroMadera.png",
+    image: "/Images/ImagesProducts/MacroMadera.png",
     category: "Cortinas",
     description:
       "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
@@ -151,7 +151,7 @@ export const dataProduct = [
   {
     id: 18,
     name: "Persianas Verticales",
-    image: "../../public/Images/ImagesProducts/PersianasVerticales.jpg",
+    image: "/Images/ImagesProducts/PersianasVerticales.jpg",
     category: "Cortinas",
     description:
       "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
@@ -159,7 +159,7 @@ export const dataProduct = [
   {
     id: 19,
     name: "MacroAluminios",
-    image: "../../public/Images/ImagesProducts/MacroAluminio.jpg",
+    image: "/Images/ImagesProducts/MacroAluminio.jpg",
     category: "Cortinas",
     description:
       "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
@@ -167,7 +167,7 @@ export const dataProduct = [
   {
     id: 20,
     name: "MiniPersianas",
-    image: "../../public/Images/ImagesProducts/MiniPersianas.jpg",
+    image: "/Images/ImagesProducts/MiniPersianas.jpg",
     category: "Cortinas",
     description:
       "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
@@ -175,7 +175,7 @@ export const dataProduct = [
   {
     id: 21,
     name: "Sheer Vertesse",
-    image: "../../public/Images/ImagesProducts/SheerVertesse.jpg",
+    image: "/Images/ImagesProducts/SheerVertesse.jpg",
     category: "Cortinas",
     description:
       "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
@@ -183,7 +183,7 @@ export const dataProduct = [
   {
     id: 22,
     name: "Cortinas Duette",
-    image: "../../public/Images/ImagesProducts/Duette.jpg",
+    image: "/Images/ImagesProducts/Duette.jpg",
     category: "Cortinas",
     description:
       "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
@@ -191,7 +191,7 @@ export const dataProduct = [
   {
     id: 23,
     name: "Cortinas SheerRoyale",
-    image: "../../public/Images/ImagesProducts/SheerRoyale.jpg",
+    image: "/Images/ImagesProducts/SheerRoyale.jpg",
     category: "Cortinas",
     description:
       "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
@@ -199,7 +199,7 @@ export const dataProduct = [
   {
     id: 24,
     name: "Shutterbox",
-    image: "../../public/Images/ImagesProducts/ShutterBox.jpg",
+    image: "/Images/ImagesProducts/ShutterBox.jpg",
     category: "Cortinas",
     description:
       "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
@@ -207,7 +207,7 @@ export const dataProduct = [
   {
     id: 25,
     name: "Persianas Impresas",
-    image: "../../public/Images/ImagesProducts/PersianasImpresas.jpg",
+    image: "/Images/ImagesProducts/PersianasImpresas.jpg",
     category: "Cortinas",
     description:
       "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
@@ -215,7 +215,7 @@ export const dataProduct = [
   {
     id: 26,
     name: "Persianas Motorizadas",
-    videoUrl: "../../video/PersianasMotorizadas.mp4",
+    videoUrl: "/video/PersianasMotorizadas.mp4",
     category: "Cortinas",
     description:
       "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
@@ -223,7 +223,7 @@ export const dataProduct = [
   {
     id: 27,
     name: "Cortinas Romanas",
-    image: "../../public/Images/ImagesProducts/CortinasRomanas.jpg",
+    image: "/Images/ImagesProducts/CortinasRomanas.jpg",
     category: "Cortinas",
     description:
       "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
@@ -231,7 +231,7 @@ export const dataProduct = [
   {
     id: 28,
     name: "Mosquiteros",
-    image: "../../public/Images/ImagesProducts/Mosquiteros.jpg",
+    image: "/Images/ImagesProducts/Mosquiteros.jpg",
     category: "Cortinas",
     description:
       "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
@@ -240,7 +240,7 @@ export const dataProduct = [
   {
     id: 29,
     name: "Panel Wall",
-    image: "../../public/Images/ImagesProducts/panelwall1.1.jpeg.jpg",
+    image: "/Images/ImagesProducts/panelwall1.1.jpeg.jpg",
     category: "panelwall",
     description:
       "Decora tus paredes de forma moderna y original. ¡Panel Wall para crear espacios únicos!",
@@ -249,7 +249,7 @@ export const dataProduct = [
   {
     id: 30,
     name: "Papel De Colgadura Con Diseño",
-    image: "../../public/Images/ImagesProducts/papeldecolgaduracondiseño.jpg",
+    image: "/Images/ImagesProducts/papeldecolgaduracondiseño.jpg",
     category: "PapelColgadura",
     description:
       "Viste tus paredes con estilo y personalidad. ¡Papel de colgadura para todos los gustos y presupuestos!",
@@ -257,7 +257,7 @@ export const dataProduct = [
   {
     id: 31,
     name: "Papel De Colgadura Con Textura",
-    image: "../../public/Images/ImagesProducts/papeldecolgaduracontextura.jpg",
+    image: "/Images/ImagesProducts/papeldecolgaduracontextura.jpg",
     category: "PapelColgadura",
     description:
       "Viste tus paredes con estilo y personalidad. ¡Papel de colgadura para todos los gustos y presupuestos!",
@@ -265,7 +265,7 @@ export const dataProduct = [
   {
     id: 32,
     name: "Papel De Colgadura Infantil",
-    image: "../../public/Images/ImagesProducts/papelColgaduraInfantil.jpg",
+    image: "/Images/ImagesProducts/papelColgaduraInfantil.jpg",
     category: "PapelColgadura",
     description:
       "Viste tus paredes con estilo y personalidad. ¡Papel de colgadura para todos los gustos y presupuestos!",
@@ -274,7 +274,7 @@ export const dataProduct = [
   {
     id: 33,
     name: "Pisos Laminados",
-    image: "../../public/Images/ImagesProducts/PisosLaminados.jpg",
+    image: "/Images/ImagesProducts/PisosLaminados.jpg",
     category: "Pisos",
     description:
       "Dale un nuevo look a tus espacios con nuestros pisos de alta calidad. ¡Durabilidad, belleza y diseños para todos los gustos!",
@@ -282,7 +282,7 @@ export const dataProduct = [
   {
     id: 34,
     name: "Pisos SPC",
-    image: "../../public/Images/ImagesProducts/PisosSpc.jpg",
+    image: "/Images/ImagesProducts/PisosSpc.jpg",
     category: "Pisos",
     description:
       "Dale un nuevo look a tus espacios con nuestros pisos de alta calidad. ¡Durabilidad, belleza y diseños para todos los gustos!",
@@ -290,7 +290,7 @@ export const dataProduct = [
   {
     id: 35,
     name: "Pisos PVC",
-    image: "../../public/Images/ImagesProducts/PisosLaminadosPvc.jpeg",
+    image: "/Images/ImagesProducts/PisosLaminadosPvc.jpeg",
     category: "Pisos",
     description:
       "Dale un nuevo look a tus espacios con nuestros pisos de alta calidad. ¡Durabilidad, belleza y diseños para todos los gustos!",
@@ -298,7 +298,7 @@ export const dataProduct = [
   {
     id: 36,
     name: "Pisos En Madera Maciza",
-    image: "../../public/Images/ImagesProducts/PisosEnMaderaMaciza.jpg  ",
+    image: "/Images/ImagesProducts/PisosEnMaderaMaciza.jpg  ",
     category: "Pisos",
     description:
       "Viste tus paredes con estilo y personalidad. ¡Papel de colgadura para todos los gustos y presupuestos!",
@@ -306,7 +306,7 @@ export const dataProduct = [
   {
     id: 37,
     name: "Pisos Vinilo En Rollo",
-    image: "../../public/Images/ImagesProducts/PisosDeViniloEnRollo.webp",
+    image: "/Images/ImagesProducts/PisosDeViniloEnRollo.webp",
     category: "Pisos",
     description:
       "Viste tus paredes con estilo y personalidad. ¡Papel de colgadura para todos los gustos y presupuestos!",
@@ -315,7 +315,7 @@ export const dataProduct = [
   {
     id: 38,
     name: "Grama Sintética De Colores",
-    image: "../../public/Images/ImagesProducts/GramaSinteticaColores.jpg",
+    image: "/Images/ImagesProducts/GramaSinteticaColores.jpg",
     category: "GramaSintetica",
     description:
       "Disfruta de un jardín verde todo el año sin las molestias del mantenimiento. ¡Grama sintética de alta calidad!",
@@ -323,7 +323,7 @@ export const dataProduct = [
   {
     id: 39,
     name: "Grama Sintética Paisajismo",
-    image: "../../public/Images/ImagesProducts/GramaSinteticaPaisajismo.jpg",
+    image: "/Images/ImagesProducts/GramaSinteticaPaisajismo.jpg",
     category: "GramaSintetica",
     description:
       "Disfruta de un jardín verde todo el año sin las molestias del mantenimiento. ¡Grama sintética de alta calidad!",
@@ -331,7 +331,7 @@ export const dataProduct = [
   {
     id: 40,
     name: "Grama Sintética Punzonada",
-    image: "../../public/Images/ImagesProducts/GramaSinteticaPunzonada.jpg",
+    image: "/Images/ImagesProducts/GramaSinteticaPunzonada.jpg",
     category: "GramaSintetica",
     description:
       "Disfruta de un jardín verde todo el año sin las molestias del mantenimiento. ¡Grama sintética de alta calidad!",
@@ -340,7 +340,7 @@ export const dataProduct = [
   {
     id: 41,
     name: "Comedores",
-    image: "../../public/Images/ImagesProducts/ComedoresExterior.jpg",
+    image: "/Images/ImagesProducts/ComedoresExterior.jpg",
     category: "MueblesExterior",
     description:
       "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
@@ -348,7 +348,7 @@ export const dataProduct = [
   {
     id: 42,
     name: "Salas",
-    image: "../../public/Images/ImagesProducts/Salas.jpg",
+    image: "/Images/ImagesProducts/Salas.jpg",
     category: "MueblesExterior",
     description:
       "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
@@ -356,7 +356,7 @@ export const dataProduct = [
   {
     id: 43,
     name: "Set De Balcon",
-    image: "../../public/Images/ImagesProducts/Salas.jpg",
+    image: "/Images/ImagesProducts/Salas.jpg",
     category: "MueblesExterior",
     description:
       "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
@@ -364,7 +364,7 @@ export const dataProduct = [
   {
     id: 44,
     name: "Asoleadores",
-    image: "../../public/Images/ImagesProducts/Asoleadoras.jpg",
+    image: "/Images/ImagesProducts/Asoleadoras.jpg",
     category: "MueblesExterior",
     description:
       "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
@@ -372,7 +372,7 @@ export const dataProduct = [
   {
     id: 45,
     name: "Pagodas",
-    image: "../../public/Images/ImagesProducts/Pagodas.jpg",
+    image: "/Images/ImagesProducts/Pagodas.jpg",
     category: "MueblesExterior",
     description:
       "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
@@ -380,7 +380,7 @@ export const dataProduct = [
   {
     id: 46,
     name: "Toldos De Brazos",
-    image: "../../public/Images/ImagesProducts/ToldosDeBrazos.jpg",
+    image: "/Images/ImagesProducts/ToldosDeBrazos.jpg",
     category: "MueblesExterior",
     description:
       "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
@@ -388,7 +388,7 @@ export const dataProduct = [
   {
     id: 48,
     name: "Toldos Verticales",
-    image: "../../public/Images/ImagesProducts/ToldosVerticales.jpg",
+    image: "/Images/ImagesProducts/ToldosVerticales.jpg",
     category: "MueblesExterior",
     description:
       "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
@@ -396,7 +396,7 @@ export const dataProduct = [
   {
     id: 49,
     name: "Pergolas Romanas",
-    image: "../../public/Images/ImagesProducts/PergolasRomanas.jpg",
+    image: "/Images/ImagesProducts/PergolasRomanas.jpg",
     category: "MueblesExterior",
     description:
       "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
@@ -404,7 +404,7 @@ export const dataProduct = [
   {
     id: 50,
     name: "Sombrillas",
-    image: "../../public/Images/ImagesProducts/Sombrillas.jpg",
+    image: "/Images/ImagesProducts/Sombrillas.jpg",
     category: "MueblesExterior",
     description:
       "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
@@ -412,7 +412,7 @@ export const dataProduct = [
   {
     id: 51,
     name: "Toldos De DobleProyección",
-    image: "../../public/Images/ImagesProducts/ToldosDeDobleProteccion.jpg",
+    image: "/Images/ImagesProducts/ToldosDeDobleProteccion.jpg",
     category: "MueblesExterior",
     description:
       "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
@@ -420,7 +420,7 @@ export const dataProduct = [
   {
     id: 52,
     name: "Persianas Z-Box",
-    image: "../../public/Images/ImagesProducts/Z-Box.jpg",
+    image: "/Images/ImagesProducts/Z-Box.jpg",
     category: "MueblesExterior",
     description:
       "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
@@ -428,7 +428,7 @@ export const dataProduct = [
   {
     id: 53,
     name: "Mesas Auxiliares",
-    image: "../../public/Images/ImagesProducts/MesasAuxiliares.jpg",
+    image: "/Images/ImagesProducts/MesasAuxiliares.jpg",
     category: "MueblesExterior",
     description:
       "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
@@ -436,7 +436,7 @@ export const dataProduct = [
   {
     id: 54,
     name: "Sillas Auxiliares",
-    image: "../../public/Images/ImagesProducts/SillasAuxiliares1.jpg",
+    image: "/Images/ImagesProducts/SillasAuxiliares1.jpg",
     category: "MueblesExterior",
     description:
       "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
@@ -445,7 +445,7 @@ export const dataProduct = [
   {
     id: 55,
     name: "MaterosJaure",
-    image: "../../public/Images/ImagesProducts/MaterosJaure.jpg",
+    image: "/Images/ImagesProducts/MaterosJaure.jpg",
     category: "Accesorios",
     description:
       "Forjado en el tiempo, el matero Jaure es un legado ancestral que combina la fuerza de la naturaleza con la elegancia del diseño. Una obra maestra para los amantes de lo auténtico.",
@@ -453,7 +453,7 @@ export const dataProduct = [
   {
     id: 56,
     name: "MaterosMae",
-    image: "../../public/Images/ImagesProducts/MaterosMae.jpg",
+    image: "/Images/ImagesProducts/MaterosMae.jpg",
     category: "Accesorios",
     description:
       "Elegancia atemporal en cada curva. Este matero, elaborado con esmero, es una invitación a disfrutar de los pequeños placeres de la vida. Un compañero fiel para momentos inolvidables.",
@@ -461,7 +461,7 @@ export const dataProduct = [
   {
     id: 57,
     name: "MaterosSaka",
-    image: "../../public/Images/ImagesProducts/MaterosSaka.jpg",
+    image: "/Images/ImagesProducts/MaterosSaka.jpg",
     category: "Accesorios",
     description:
       "Un diseño minimalista, esculpido en gris, que fusiona la estética industrial con la calidez artesanal. Una pieza única que transforma cualquier espacio en un oasis de tranquilidad.",
