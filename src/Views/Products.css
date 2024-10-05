@@ -87,3 +87,50 @@ width: 90%;
   margin: 0 10px; /* Ajustar el margen del párrafo para buena distribución */
   text-align: justify; /* Justificar el texto para mejor distribución */
 }
+/* Para pantallas entre 921px y 1279px */
+@media (min-width: 921px) and (max-width: 1279px) {
+  .product-list {
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+  }
+
+  .product-card {
+    width: 380px; /* Ajustar el ancho de la tarjeta */
+  }
+}
+
+/* Para pantallas entre 769px y 920px */
+@media (min-width: 769px) and (max-width: 920px) {
+  .product-list {
+    grid-template-columns: 1fr; /* Una columna */
+  }
+
+  .product-card {
+    width: 350px; /* Ajustar el ancho de la tarjeta */
+  }
+}
+
+/* Para pantallas entre 481px y 768px */
+@media (min-width: 481px) and (max-width: 768px) {
+  .product-list {
+    grid-template-columns: 1fr; /* Una columna */
+  }
+
+  .product-card {
+    width: 320px; /* Ajustar el ancho de la tarjeta */
+  }
+}
+
+/* Para pantallas extra pequeñas: entre 352px y 480px */
+@media (min-width: 352px) and (max-width: 480px) {
+  .product-list {
+    grid-template-columns: 1fr; /* Una columna */
+  }
+
+  .product-card {
+    width: 100%; /* La tarjeta ocupará todo el ancho de la pantalla */
+  }
+
+  .product-card img, .product-video {
+    height: 200px; /* Reducir la altura en pantallas pequeñas */
+  }
+}
