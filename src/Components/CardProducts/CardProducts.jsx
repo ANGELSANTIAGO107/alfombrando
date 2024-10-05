@@ -15,7 +15,7 @@ const products = [
   {
     id: 2,
     name: "Tapetes",
-    image: "Images/ImagesProducts/TapetePrincipal.jpg",
+    image: "/Images/ImagesProducts/TapetePrincipal.jpg",
     category: "Tapetes",
     description:
       "Un toque de calidez y personalidad para cada rincón de tu hogar. ¡Elige entre una gran variedad de diseños y colores!. ",

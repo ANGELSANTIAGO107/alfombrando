@@ -21,7 +21,7 @@ function Header() {
           &#9776;
         </button>
         <img
-          src="../../public/Images/LogoAlfombrandoSinFondo.png"
+          src="/Images/LogoAlfombrandoSinFondo.png"
           alt="logo"
           className="logo"
         />

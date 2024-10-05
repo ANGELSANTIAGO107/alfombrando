@@ -5,7 +5,7 @@ function About() {
     <div className="about-container" id="about">
       <div className="about-left">
         <img
-          src="/public/Images/LogoAlfombrandoSinFondo.png"
+          src="/Images/LogoAlfombrandoSinFondo.png"
           alt="alfombrando"
           className="about-logo"
         />
@@ -24,7 +24,7 @@ function About() {
       <div className="about-right">
         <div className="about-video">
           <video
-            src="/public/video/comoLlegar.mp4"
+            src="/video/comoLlegar.mp4"
             autoPlay
             loop
             muted

@@ -29,7 +29,7 @@ function SectionAlcop() {
           target="_blank"
         >
           <img
-            src="/public/Images/logoAlcop.png"
+            src="/Images/logoAlcop.png"
             alt="Logo Alcop"
             className="logoAlcop"
           ></img>

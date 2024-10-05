@@ -52,7 +52,7 @@ function Products() {
                 <p>{product.description}</p>
               </div>
               <img
-                src="../../public/Images/qrAlfombrando.jpg "
+                src="/Images/qrAlfombrando.jpg "
                 alt="Código QR para cotizar en WhatsApp"
                 className="qr-image"
               />
