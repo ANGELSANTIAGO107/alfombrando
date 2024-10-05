@@ -6,7 +6,7 @@ import Footer from "../Components/Footer/Footer";
 import CardServices from "../Components/CardServices/CardServices";
 import Redes from "../Components/Redes/Redes";
 import About from "../Components/About/About";
-import SectionAlcop from "../Components/SectionAlcop/SectionAlcop;
+import SectionAlcop from "../Components/SectionAlcop/SectionAlcop";
 import { FaSquareWhatsapp } from "react-icons/fa6";
 import "./Home.css";
 
