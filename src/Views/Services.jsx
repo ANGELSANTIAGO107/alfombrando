@@ -42,7 +42,7 @@ function Services() {
                   rel="noopener noreferrer"
                 >
                   <img
-                    src="/public/Images/qrAlfombrando.jpg"
+                    src="/Images/qrAlfombrando.jpg"
                     alt="QR WhatsApp"
                     className="qr-image"
                   />

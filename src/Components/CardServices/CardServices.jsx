@@ -57,57 +57,57 @@ function CardServices() {
             {
               id: "1",
               text: "Limpieza profunda de muebles, alfombras y vidrios",
-              img: "/public/Images/ImagesServices/LavadoDeAlfombras.jpg",
+              img: "/Images/ImagesServices/LavadoDeAlfombras.jpg",
             },
             {
               id: "2",
               text: "instalacion de alfombras modulares y/o en rollo",
-              img: "/public/Images/ImagesServices/instalaciondealfombrasM.jpg",
+              img: "/Images/ImagesServices/instalaciondealfombrasM.jpg",
             },
             {
               id: "3",
               text: "Mantenimiento y restauración de pisos",
-              img: "/public/Images/ImagesServices/instalacionPisos.jpeg",
+              img: "/Images/ImagesServices/instalacionPisos.jpeg",
             },
             {
               id: "4",
               text: "Instalación de pisos SPC y SPC de clic y laminados",
-              img: "/public/Images/ImagesServices/InstalacionDePisosSPC.jpg",
+              img: "/Images/ImagesServices/InstalacionDePisosSPC.jpg",
             },
             {
               id: "5",
               text: "Instalación y restauracion de persianas para tus ventanas",
-              img: "/public/Images/ImagesServices/InstalacionDePersianas.jpg",
+              img: "/Images/ImagesServices/InstalacionDePersianas.jpg",
             },
             {
               id: "6",
               text: "Paredes con estilo, instalación de papel tapiz",
-              img: "/public/Images/ImagesServices/InstalacionPapelColgadura1.jpg",
+              img: "/Images/ImagesServices/InstalacionPapelColgadura1.jpg",
             },
             {
               id: "7",
               text: "Tu hogar fresco con películas de protección solar",
-              img: "/public/Images/ImagesServices/InstalacionPeliculasSolares.jpg",
+              img: "/Images/ImagesServices/InstalacionPeliculasSolares.jpg",
             },
             {
               id: "8",
               text: "Toldos y pérgolas a tu medida. Diseñamos y adaptamos a tus necesidades.",
-              img: "/public/Images/ImagesServices/InstalacionPergolasYToldos.jpg",
+              img: "/Images/ImagesServices/InstalacionPergolasYToldos.jpg",
             },
             {
               id: "9",
               text: "Dale Vanguardia y elegancia a tu hogar con la Instalacion de PanelWall",
-              img: "/public/Images/ImagesServices/InstalacionPanelWall.jpg",
+              img: "/Images/ImagesServices/InstalacionPanelWall.jpg",
             },
             {
               id: "10",
               text: "Grama sintética de alta calidad. Transforma tu espacio exterior.",
-              img: "/public/Images/ImagesServices/InstalacionGramaSintetica.jpg",
+              img: "/Images/ImagesServices/InstalacionGramaSintetica.jpg",
             },
             {
               id: "11",
               text: "Disfruta de la belleza natural de la madera. Instalación y restauración de pisos de madera maciza",
-              img: "/public/Images/ImagesServices/EscalerasMadera.jpeg",
+              img: "/Images/ImagesServices/EscalerasMadera.jpeg",
             },
           ].map((service) => (
             <div key={service.id} className="services-card">

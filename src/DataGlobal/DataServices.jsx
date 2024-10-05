@@ -24,7 +24,7 @@ export const DataServices = [
   },
   {
     id: 3,
-    urlImage: "/public/video/PisosMantenimiento.mp4",
+    urlImage: "/video/PisosMantenimiento.mp4",
     name: "Mantenimiento y Restauracion de Pisos",
     icon: <BsWrenchAdjustableCircle className="icon-clean" />,
     description:
@@ -42,7 +42,7 @@ export const DataServices = [
   },
   {
     id: 5,
-    urlImage: "/public/video/InstalacionPersianas.mp4",
+    urlImage: "/video/InstalacionPersianas.mp4",
     name: "Instalacion y Rstauracion De Persianas Estilo Para tus Ventanas",
     icon: <BsWrenchAdjustableCircle className="icon-clean" />,
     description:
@@ -69,7 +69,7 @@ export const DataServices = [
   },
   {
     id: 8,
-    urlImage: "/public/video/InstalacionToldosYPergolas.mp4",
+    urlImage: "/video/InstalacionToldosYPergolas.mp4",
     name: "Instalacion y restauracion de Toldos y Pérgolas",
     icon: <BsWrenchAdjustableCircle className="icon-clean" />,
     description:
@@ -78,7 +78,7 @@ export const DataServices = [
   },
   {
     id: 9,
-    urlImage: "/public/video/InstalacionDePanelWall.mp4",
+    urlImage: "/video/InstalacionDePanelWall.mp4",
     name: "Instalacion de panelWall",
     icon: <MdOutlineConstruction className="icon-clean" />,
     description:
@@ -87,7 +87,7 @@ export const DataServices = [
   },
   {
     id: 10,
-    urlImage: "/public/video/InstalacionDeGramaSintetica.mp4",
+    urlImage: "/video/InstalacionDeGramaSintetica.mp4",
     name: "Instalación profesional de grama sintética. Jardines sin mantenimiento.",
     icon: <MdOutlineConstruction className="icon-clean" />,
     description:
@@ -102,6 +102,6 @@ export const DataServices = [
     icon: <MdOutlineConstruction className="icon-clean" />,
     description:
       "Transforma tu jardín en un oasis verde con nuestra grama sintética. Ofrecemos una amplia variedad de modelos y texturas, adaptados a cualquier espacio y necesidad. Nuestros expertos se encargan de la instalación completa, desde la preparación del terreno hasta los acabados finales. Disfruta de un césped siempre perfecto, sin necesidad de riego ni mantenimiento.",
-    ref: "10",
+    ref: "11",
   },
 ];
