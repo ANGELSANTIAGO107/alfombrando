@@ -6,30 +6,6 @@ import "./CardProducts.css";
 const products = [
   {
     id: 1,
-    name: "Alfombras",
-    image: "/Images/ImagesProducts/Alfombras.jpg",
-    category: "Alfombras",
-    description:
-      "Convierte tus pisos en obras de arte con nuestras alfombras de ensueño. ¡Suavidad, estilo y comodidad para tu hogar!",
-  },
-  {
-    id: 2,
-    name: "Tapetes",
-    image: "/Images/ImagesProducts/TapetePrincipal.jpg",
-    category: "Tapetes",
-    description:
-      "Un toque de calidez y personalidad para cada rincón de tu hogar. ¡Elige entre una gran variedad de diseños y colores!. ",
-  },
-  {
-    id: 3,
-    name: "Cojines",
-    image: "/Images/ImagesProducts/Cogines.jpeg",
-    category: "Cojines",
-    description:
-      "Agrega un toque de confort y estilo a tu hogar. ¡Cojines de todos los tamaños, colores y diseños!",
-  },
-  {
-    id: 4,
     name: "Cortinas",
     image: "/Images/ImagesProducts/CortinasClaras.jpeg",
     category: "Cortinas",
@@ -37,20 +13,44 @@ const products = [
       "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!.",
   },
   {
-    id: 5,
-    name: "Panel Wall",
-    image: "/Images/ImagesProducts/panelwall2.jpeg",
-    category: "panelwall",
+    id: 2,
+    name: "Alfombras",
+    image: "/Images/ImagesProducts/Alfombras.jpg",
+    category: "Alfombras",
     description:
-      "Decora tus paredes de forma moderna y original. ¡Panel Wall para crear espacios únicos! ",
+      "Convierte tus pisos en obras de arte con nuestras alfombras de ensueño. ¡Suavidad, estilo y comodidad para tu hogar!",
   },
   {
-    id: 6,
+    id: 3,
     name: "Papel De Colgadura",
     image: "/Images/ImagesProducts/PapelDeColgaduraPrincipal.jpg",
     category: "PapelColgadura",
     description:
       "Viste tus paredes con estilo y personalidad. ¡Papel de colgadura para todos los gustos y presupuestos!",
+  },
+  {
+    id: 4,
+    name: "Tapetes",
+    image: "/Images/ImagesProducts/TapetePrincipal.jpg",
+    category: "Tapetes",
+    description:
+      "Un toque de calidez y personalidad para cada rincón de tu hogar. ¡Elige entre una gran variedad de diseños y colores!. ",
+  },
+  {
+    id: 5,
+    name: "Cojines",
+    image: "/Images/ImagesProducts/Cojines.jpeg",
+    category: "Cojines",
+    description:
+      "Agrega un toque de confort y estilo a tu hogar. ¡Cojines de todos los tamaños, colores y diseños!",
+  },
+  {
+    id: 6,
+    name: "Panel Wall",
+    image: "/Images/ImagesProducts/panelwall2.jpeg",
+    category: "panelwall",
+    description:
+      "Decora tus paredes de forma moderna y original. ¡Panel Wall para crear espacios únicos! ",
   },
   {
     id: 7,

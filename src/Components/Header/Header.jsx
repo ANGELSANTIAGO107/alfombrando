@@ -20,11 +20,14 @@ function Header() {
       <button className="hamburger" onClick={toggleMenu}>
           &#9776;
         </button>
-        <img
-          src="/Images/LogoAlfombrandoSinFondo.png"
-          alt="logo"
-          className="logo"
-        />
+        <a href="/">
+  <img
+    src="/Images/LogoAlfombrandoSinFondo.png"
+    alt="logo"
+    className="logo"
+  />
+</a>
+
       </div>
       <div className={`navHome ${isMenuOpen ? "open" : ""}`}>
         <a href="/" className={activeLink === "inicio" ? "selected" : ""} onClick={() => handleLinkClick("inicio")}>

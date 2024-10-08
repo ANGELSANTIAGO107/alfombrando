@@ -40,6 +40,7 @@
 .services-card {
     flex: 0 0 auto;
     width: 236px;
+    text-align: center;
     margin-right: 20px;
     scroll-snap-align: start;  /* Las tarjetas se alinean al inicio al hacer scroll */
     margin-bottom: 15px;

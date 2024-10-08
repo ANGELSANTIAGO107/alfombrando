@@ -1,49 +1,115 @@
-.map-section {
+.location-container {
     display: flex;
+    padding: 60px;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center; 
 }
 
-.location-container {
-    padding: 20px;
+.video-alcop {
+    display: flex; 
+    justify-content: center; 
+    max-width: 400px;
+    height: 500px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave alrededor del video */
+}
+
+/* Estilo del video */
+.alcop-video {
+    width: 100%; /* Ancho completo del video en pantallas pequeñas */
+    max-width: 400px; /* Limitar el tamaño máximo del video */
+    height: 500px; /* Reducir la altura para pantallas más pequeñas */
+    margin-right: 0; /* Eliminar margen derecho del video */
+}
+
+.map-section {
+    display: flex;
+    flex-direction: column; /* Coloca el contenido en columnas */
+    align-items: center; /* Centrar el contenido horizontalmente */
+    max-width: 518px;
+    
 }
 
 .logo-section {
-    margin: 10px;
+    margin-bottom: 10px; /* Espacio entre el logo y la información */
+}
+
+.info-container {
+    display: flex; /* Permite que el mapa y la descripción estén en fila */
+    align-items: center; /* Alinea verticalmente */
+    justify-content: center;
+    text-align: center; /* Centra el texto */
+    margin-top: 10px; /* Reduce el margen superior */
+    border-bottom: 1px solid;
+    padding-bottom: 28px;
 }
 
 .small-image {
-    width: 55px;
-    height: 55px;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
 }
 
 .logoAlcop {
-    width: 150px;
-    height: 80px;
+    width: 200px;
+    height: auto; 
 }
 
 .map-section p {
-    font-size: 11px;
-    margin-left: 10px;
-    text-align: start;
+    font-size: 16px; /* Reducir tamaño de fuente para que ocupe menos espacio */
+    margin: 0; 
+    width: 100%; /* Hacer que el texto ocupe todo el ancho permitido */
 }
 
 .map-section a {
-    color: #007bff;
-    /* Color del enlace */
-    text-decoration: none;
+    color: #007bff; /* Color del enlace */
+    text-decoration: none; /* Sin subrayado */
 }
 
 .map-section a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Subrayar al pasar el mouse */
 }
 
+@media (max-width:920px){
+    .logoAlcop {
+        margin-top: 30px;
+    }
+}
+/* Responsivo para pantallas pequeñas */
 @media (max-width: 768px) {
-    .map-section {
-        flex-direction: column;
-        align-items: center;
+    .location-container {
+        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+        align-items: center; /* Centrar contenido */
+    }
 
+    .video-alcop {
+        width: 100%; /* Ancho completo del video en pantallas pequeñas */
+        max-width: 400px; /* Limitar el tamaño máximo del video */
+        height: 350px; /* Reducir la altura para pantallas más pequeñas */
+        margin-right: 0; /* Eliminar margen derecho */
+    }
+    
+    .alcop-video {
+        width: 100%; /* Ancho completo del video en pantallas pequeñas */
+        max-width: 400px; /* Limitar el tamaño máximo del video */
+        height: 350px; /* Reducir la altura para pantallas más pequeñas */
+        margin-right: 0; /* Eliminar margen derecho */
+    }
+
+    .map-section {
+        width: 100%; /* Ancho completo para la sección de información */
+        align-items: center; /* Centrar contenido */
+    }
+
+    .info-container {
+        flex-direction: column; /* Colocar el mapa y el texto uno debajo del otro */
+        align-items: center; /* Centrar el contenido */
     }
 
     .small-image {
-        margin-bottom: 10px;
+        margin-bottom: 10px; /* Espacio entre el mapa y el texto */
+    }
+    .logoAlcop {
+        margin-top: 30px;
     }
 }

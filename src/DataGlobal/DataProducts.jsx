@@ -75,7 +75,7 @@ export const dataProduct = [
   },
   {
     id: 9,
-    name: "Tapete Para Cocina",
+    name: "Tapete para cocina",
     image: "/Images/ImagesProducts/TapetesParaCocina.jpg",
     category: "Tapetes",
     description:
@@ -84,7 +84,7 @@ export const dataProduct = [
 
   {
     id: 10,
-    name: "Tapete Para La Entrada",
+    name: "Tapete para la entrada",
     image: "/Images/ImagesProducts/TapeteParaLaEntrada.jpg",
     category: "Tapetes",
     description:
@@ -93,15 +93,15 @@ export const dataProduct = [
   // Categoría: Cojines
   {
     id: 11,
-    name: "Cojin De Interior",
-    image: "/Images/ImagesProducts/cojines.jpg",
+    name: "Cojines de interior",
+    image: "/Images/ImagesProducts/CojinesDeInterior.jpeg",
     category: "Cojines",
     description:
       "Agrega un toque de confort y estilo a tu hogar. ¡Cojines de todos los tamaños, colores y diseños!",
   },
   {
     id: 12,
-    name: " Cojines De Exterior",
+    name: " Cojines de exterior",
     image: "/Images/ImagesProducts/CojinesDeExterior.jpg",
     category: "Cojines",
     description:
@@ -118,7 +118,7 @@ export const dataProduct = [
   },
   {
     id: 14,
-    name: "Panel Japones",
+    name: "Panel Japonés",
     image: "/Images/ImagesProducts/PanelJapones.jpg",
     category: "Cortinas",
     description:
@@ -248,7 +248,7 @@ export const dataProduct = [
   // Categoría: Papel de Colgadura
   {
     id: 30,
-    name: "Papel De Colgadura Con Diseño",
+    name: "Papel de colgadura con diseño",
     image: "/Images/ImagesProducts/papeldecolgaduracondiseño.jpg",
     category: "PapelColgadura",
     description:
@@ -256,7 +256,7 @@ export const dataProduct = [
   },
   {
     id: 31,
-    name: "Papel De Colgadura Con Textura",
+    name: "Papel de colgadura con textura",
     image: "/Images/ImagesProducts/papeldecolgaduracontextura.jpg",
     category: "PapelColgadura",
     description:
@@ -264,7 +264,7 @@ export const dataProduct = [
   },
   {
     id: 32,
-    name: "Papel De Colgadura Infantil",
+    name: "Papel de colgadura infantil",
     image: "/Images/ImagesProducts/papelColgaduraInfantil.jpg",
     category: "PapelColgadura",
     description:
@@ -297,7 +297,7 @@ export const dataProduct = [
   },
   {
     id: 36,
-    name: "Pisos En Madera Maciza",
+    name: "Pisos en madera maciza",
     image: "/Images/ImagesProducts/PisosEnMaderaMaciza.jpg  ",
     category: "Pisos",
     description:
@@ -305,7 +305,7 @@ export const dataProduct = [
   },
   {
     id: 37,
-    name: "Pisos Vinilo En Rollo",
+    name: "Pisos vinilo en rollo",
     image: "/Images/ImagesProducts/PisosDeViniloEnRollo.webp",
     category: "Pisos",
     description:
@@ -314,7 +314,7 @@ export const dataProduct = [
   // Categoría: Grama Sintética
   {
     id: 38,
-    name: "Grama Sintética De Colores",
+    name: "Grama sintética de colores",
     image: "/Images/ImagesProducts/GramaSinteticaColores.jpg",
     category: "GramaSintetica",
     description:
@@ -322,7 +322,7 @@ export const dataProduct = [
   },
   {
     id: 39,
-    name: "Grama Sintética Paisajismo",
+    name: "Grama sintética paisajismo",
     image: "/Images/ImagesProducts/GramaSinteticaPaisajismo.jpg",
     category: "GramaSintetica",
     description:
@@ -330,7 +330,7 @@ export const dataProduct = [
   },
   {
     id: 40,
-    name: "Grama Sintética Punzonada",
+    name: "Grama sintética punzonada",
     image: "/Images/ImagesProducts/GramaSinteticaPunzonada.jpg",
     category: "GramaSintetica",
     description:
@@ -355,7 +355,7 @@ export const dataProduct = [
   },
   {
     id: 43,
-    name: "Set De Balcon",
+    name: "Set de balcón",
     image: "/Images/ImagesProducts/Salas.jpg",
     category: "MueblesExterior",
     description:
@@ -411,7 +411,7 @@ export const dataProduct = [
   },
   {
     id: 51,
-    name: "Toldos De DobleProyección",
+    name: "Toldos de DobleProyección",
     image: "/Images/ImagesProducts/ToldosDeDobleProteccion.jpg",
     category: "MueblesExterior",
     description:
