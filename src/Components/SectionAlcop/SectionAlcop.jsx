@@ -3,43 +3,35 @@ import "./SectionAlcop.css";
 function SectionAlcop() {
   return (
     <div className="location-container">
-      {/* Sección del video */}
       <div className="alcop-video">
         <video
-          src="/video/Alcop.mp4" // Verifica que la ruta sea correcta
+          src="/video/Alcop.mp4" 
           autoPlay
           loop
           muted
           className="video-alcop"
         />
       </div>
-
-      {/* Sección de la información (mapa y logo) */}
       <div className="map-section">
         <div className="logo-section">
           <a
             href="https://www.instagram.com/alcop_pereira/?hl=es-la"
             target="_blank"
-            rel="noopener noreferrer" // Correcto, mejora la seguridad
+            rel="noopener noreferrer" 
           >
             <img
-              src="/Images/logoAlcop.png" // Verifica que la ruta sea correcta
-              alt="Logo de Alcop" // Atributo alt mejorado
+              src="/Images/logoAlcop.png" 
+              alt="Logo de Alcop" 
               className="logoAlcop"
             />
           </a>
         </div>
-        
-        {/* Contenedor para el mapa y la descripción */}
         <div className="info-container">
-          {/* Imagen del mapa */}
           <img
-            src="/Images/map.png" // Verifica que la ruta sea correcta
-            alt="Mapa de la ubicación de Alcop" // Atributo alt mejorado
+            src="/Images/map.png" 
+            alt="Mapa de la ubicación de Alcop" 
             className="small-image"
           />
-
-          {/* Texto descriptivo con enlace a Google Maps */}
           <p>
             Nos encontramos también en <strong>Pereira, Risaralda.</strong> Nuestra dirección es
             <a

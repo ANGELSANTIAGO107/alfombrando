@@ -93,7 +93,7 @@ const ProductsAseo = [
   {
     id: 13,
     name: "Limpiador de piso",
-    image: "../../public/Images/ImagesProductsAseo/LimpiadorDePiso.jpg",
+    image: "/Images/ImagesProductsAseo/LimpiadorDePiso.jpg",
     description:
       "El Limpiador Multiusos D`YILOP es un limpiador con fragancia y pH nivelado, diseñado especialmente para la limpieza de pisos, baños, mesones",
   },
@@ -191,14 +191,14 @@ const ProductsAseo = [
   {
     id: 27,
     name: "Contenedor vaivén 10L",
-    image: "../../public/Images/ImagesProductsAseo/Vaiven10lts.jpg",
+    image: "/Images/ImagesProductsAseo/Vaiven10lts.jpg",
     description:
       "Sistema de vaivén que ofrece mayor comodidad e higiene. Tamaño que se adecúa a espacios reducidos.",
   },
   {
     id: 28,
     name: "Papelera 20L",
-    image: "../../public/Images/ImagesProductsAseo/Papelera20ltsPedal.jpg",
+    image: "/Images/ImagesProductsAseo/Papelera20ltsPedal.jpg",
     description:
       "Pedal incorporado ideal para uso en espacios cerrados y altamente resistente a impactos y solventes comunes.",
   },
