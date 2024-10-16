@@ -8,6 +8,7 @@ import Redes from "../Components/Redes/Redes";
 import About from "../Components/About/About";
 import SectionAlcop from '../Components/sectionAlcop/SectionAlcop';
 import { FaSquareWhatsapp } from "react-icons/fa6";
+
 import "./Home.css";
 
 
