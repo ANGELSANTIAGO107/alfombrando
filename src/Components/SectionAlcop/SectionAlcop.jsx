@@ -6,12 +6,12 @@ function SectionAlcop() {
       {/* Sección del video */}
       <div className="alcop-video">
         <video
-          src="/video/Alcop.mp4"
+          src="/video/Alcop.mp4" // Verifica que la ruta sea correcta
           autoPlay
           loop
           muted
           className="video-alcop"
-        ></video>
+        />
       </div>
 
       {/* Sección de la información (mapa y logo) */}
@@ -20,11 +20,11 @@ function SectionAlcop() {
           <a
             href="https://www.instagram.com/alcop_pereira/?hl=es-la"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer" // Correcto, mejora la seguridad
           >
             <img
-              src="/Images/logoAlcop.png"
-              alt="Logo Alcop"
+              src="/Images/logoAlcop.png" // Verifica que la ruta sea correcta
+              alt="Logo de Alcop" // Atributo alt mejorado
               className="logoAlcop"
             />
           </a>
@@ -34,21 +34,20 @@ function SectionAlcop() {
         <div className="info-container">
           {/* Imagen del mapa */}
           <img
-            src="/Images/map.png"
-            alt="Mapa de la ubicación"
+            src="/Images/map.png" // Verifica que la ruta sea correcta
+            alt="Mapa de la ubicación de Alcop" // Atributo alt mejorado
             className="small-image"
           />
 
           {/* Texto descriptivo con enlace a Google Maps */}
           <p>
-            Nos encontramos también en <strong>Pereira, Risaralda.</strong>{" "}
-            Nuestra dirección es
+            Nos encontramos también en <strong>Pereira, Risaralda.</strong> Nuestra dirección es
             <a
               href="https://www.google.com/maps/place/Alcop/@4.8092241,-75.6920971,3a,75y,26.34h,98.43t/data=!3m7!1e1!3m5!1sfGerufnTDijCbq7sCxwJVw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-8.426526603438404%26panoid%3DfGerufnTDijCbq7sCxwJVw%26yaw%3D26.34244199681668!7i16384!8i8192!4m20!1m13!4m12!1m4!2m2!1d-75.6678656!2d4.5416448!4e1!1m6!1m2!1s0x8e3887474274ffbb:0xd2e2adeb7d8ed13d!2salcop!2m2!1d-75.692055!2d4.8093246!3m5!1s0x8e3887474274ffbb:0xd2e2adeb7d8ed13d!8m2!3d4.8093246!4d-75.692055!16s%2Fg%2F11hzqgrvts?coh=205410&entry=ttu&g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D"
               target="_blank"
-              rel="noopener noreferrer"
-            > {" "}
-              Cra. 13 #15-60
+              rel="noopener noreferrer" // Correcto, mejora la seguridad
+            >
+              {" "}Cra. 13 #15-60
             </a>
             , en una zona céntrica y accesible, listos para ofrecerte una atención
             cercana y eficiente tanto en nuestras instalaciones como a través de
