@@ -22,7 +22,7 @@ const products = [
   },
   {
     id: 3,
-    name: "Papel De Colgadura",
+    name: "Papel de Colgadura",
     image: "/Images/ImagesProducts/PapelDeColgaduraPrincipal.jpg",
     category: "PapelColgadura",
     description:
@@ -62,7 +62,7 @@ const products = [
   },
   {
     id: 8,
-    name: "Grama Sintetica",
+    name: "Grama sintética",
     image: "/Images/ImagesProducts/GramaSinteticaP.jpg",
     category: "GramaSintetica",
     description:
@@ -70,7 +70,7 @@ const products = [
   },
   {
     id: 9,
-    name: "Muebles y Productos Para Exterior",
+    name: "Muebles y productos para exterior",
     image: "/Images/ImagesProducts/MueblesExteriorW.jpg",
     category: "MueblesExterior",
     description:
@@ -78,7 +78,7 @@ const products = [
   },
   {
     id: 10,
-    name: "Accesorios Para tu Hogar ",
+    name: "Accesorios para tu hogar ",
     image: "/Images/ImagesProducts/Accesorios.jpeg",
     category: "Accesorios",
     description:
@@ -86,11 +86,11 @@ const products = [
   },
   {
     id: 11,
-    name: "Productos De Aseo",
+    name: "Productos de Aseo",
     image: "/Images/ImagesProducts/ProductosDeAseoPrincipal.png",
     category: "ProductosDeAseo",
     description:
-      "¿Buscas productos de aseo de calidad? ¡En Alfombrando los tenemos todos! Desde traperos hasta quitamanchas, todo lo que necesitas para un hogar limpio y reluciente te espera.",
+      "¡En Alfombrando los mejores productos de aseo! Todo lo que necesitas para un hogar limpio y reluciente te espera.",
   },
 ];
 
