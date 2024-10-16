@@ -7,10 +7,8 @@ import CardServices from "../Components/CardServices/CardServices";
 import Redes from "../Components/Redes/Redes";
 import About from "../Components/About/About";
 import { FaSquareWhatsapp } from "react-icons/fa6";
-
-
 import "./Home.css";
-import SectionAlcop from "../Components/sectionAlcop/sectionAlcop";
+import Alcop from "../Components/Alcop/Alcop";
 
 
 
@@ -36,7 +34,7 @@ export const Home = () => {
       <CardProducts />
       <CardServices />
       <About />
-      <SectionAlcop />
+      <Alcop />
       <a
        href="https://wa.me/573105385315" // Replace with your WhatsApp number
         target="_blank"
