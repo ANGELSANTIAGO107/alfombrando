@@ -1,0 +1,245 @@
+.products-alcop {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 80px;
+}
+
+.section-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.section-row.reverse {
+    flex-direction: row-reverse;
+}
+
+.image-container {
+    flex: 1;
+    margin: 0 20px;
+    max-width: 40%;
+}
+
+.text-container {
+    flex: 1;
+    margin: 0 20px;
+    max-width: 50%; 
+}
+
+.video-alfombrandoAseo {
+    display: block;
+    width: 100%;
+    max-width: 100%; 
+    height: 300px; 
+    object-fit: cover; 
+    background-color: transparent; 
+    border-radius: 10px;
+}
+
+.video-alfombrandoAseo:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}    
+
+.image-container img {
+    width: 100%;
+    height: 300px; 
+    object-fit: cover; 
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-container img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.text-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.text-container p {
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #006400;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #008000;
+}
+
+.sculpture-gallery {
+    display: flex;
+    align-items: flex-start; 
+    margin-top: 80px;
+}
+
+.sculpture-info {
+    flex: 1; 
+    text-align: left; 
+    margin-top: 20px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px; 
+    margin-bottom: 20px;
+}
+
+.gallery-item {
+    text-align: center; 
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover; 
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.sculpture-info p{
+    width: 80%;
+    font-size: 14px;
+}
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .section-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-container, .text-container {
+        max-width: 100%;
+        margin: 10px 0;
+    }
+
+
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for medium screens */
+    }
+
+    .sculpture-gallery {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; 
+    }
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 920px) {
+    .text-container h2 {
+        font-size: 20px; 
+    }
+
+    .text-container p {
+        font-size: 12px; 
+    }
+    .text-container h2 {
+        font-size: 20px; 
+    }
+
+    .text-container p {
+        font-size: 12px; 
+    }
+
+    .sculpture-info {
+        text-align: center; /* Center text */
+        width: 100%; /* Ensure full width for centering */
+        margin: 20px 0; /* Optional: Add margin if needed */
+    }
+
+    .sculpture-info p {
+        font-size: 12px; 
+        margin: 0 auto; 
+    }
+    .sculpture-gallery {
+        flex-direction: column; 
+        align-items: center; 
+        margin-top: 10px;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .text-container h2 {
+        font-size: 20px; 
+    }
+
+    .text-container p {
+        font-size: 12px; 
+    }
+
+    .gallery-grid {
+        grid-template-columns: 1fr; 
+    }
+
+    .sculpture-info {
+        text-align: center; /* Center text */
+        width: 100%; /* Ensure full width for centering */
+        margin: 20px 0; /* Optional: Add margin if needed */
+    }
+
+    .sculpture-info p {
+        font-size: 12px; 
+        margin: 0 auto; 
+    }
+
+    .section-row.reverse {
+        flex-direction: column-reverse;
+    }
+
+    .sculpture-gallery {
+        flex-direction: column; 
+        align-items: center; 
+    }
+}
+
+@media (max-width: 480px) {
+    .text-container h2 {
+        font-size: 20px; /* Smaller font size for mobile */
+    }
+
+    .text-container p {
+        font-size: 12px; /* Smaller font size for mobile */
+    }
+
+    .gallery-grid {
+        grid-template-columns: 1fr; /* 1 column for small screens */
+    }
+
+    .sculpture-info {
+        text-align: center; /* Center text */
+        width: 100%; /* Ensure full width for centering */
+        margin: 20px 0; /* Optional: Add margin if needed */
+    }
+
+    .sculpture-info p {
+        font-size: 12px; 
+        margin: 0 auto; 
+    }
+
+    .section-row.reverse {
+        flex-direction: column-reverse;
+    }
+
+    .sculpture-gallery {
+        flex-direction: column; 
+        align-items: center; 
+    }
+}

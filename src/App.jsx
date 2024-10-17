@@ -3,6 +3,7 @@ import { Home } from "./Layout/Home.jsx";
 import Products from "./Views/Products.jsx";
 import Services from "./Views/Services.jsx";
 import ProductsAseo from "./Views/ProductsAseo.jsx";
+import ProductsAlcop from "./Views/ProductsAlcop.jsx";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/Products" element={<Products />} />
         <Route path="/Services/:id" element={<Services />} />
         <Route path="/ProductsAseo" element={<ProductsAseo />} />
+        <Route path="/ProductsAlcop" element={<ProductsAlcop />} />
       </Routes>
     </Router>
   );

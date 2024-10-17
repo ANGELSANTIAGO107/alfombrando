@@ -1,7 +1,7 @@
 import Header from "../Components/Header/Header";
 import Footer from "../Components/Footer/Footer";
 import "./ProductsAseo.css";
-import { FaWhatsapp } from "react-icons/fa"; // Importar el icono de WhatsApp
+import { FaWhatsapp } from "react-icons/fa"; 
 
 function ProductsAseo() {
   

@@ -60,15 +60,39 @@
     margin: 0; 
     width: 100%; /* Hacer que el texto ocupe todo el ancho permitido */
 }
-
 .map-section a {
-    color: #007bff; /* Color del enlace */
-    text-decoration: none; /* Sin subrayado */
+    text-decoration: none;
+    color: #007bff;
 }
 
 .map-section a:hover {
-    text-decoration: underline; /* Subrayar al pasar el mouse */
+    text-decoration: underline; 
 }
+
+
+button {
+    background-color: #b5b5b5; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+    text-decoration: none; 
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #a3a3a3; /* Cambia el color de fondo al pasar el ratón */
+    /* No es necesario agregar text-decoration: none aquí, ya que el botón no es un enlace */
+}
+
+/* Asegúrate de que los enlaces dentro de la sección de botones no tengan subrayado */
+.map-section a button {
+    text-decoration: none; /* Asegura que el texto dentro de un botón no tenga subrayado */
+}
+
 
 @media (max-width:920px){
     .logoAlcop {

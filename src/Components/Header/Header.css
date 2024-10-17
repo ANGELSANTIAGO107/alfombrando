@@ -30,13 +30,14 @@
   align-items: center;
   gap: 4em;
 }
+
 .navHome a {
-  font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   color: black;
   padding: 8px 12px;
   transition: border-bottom 0.2s ease, color 0.3s ease;
   position: relative; 
+  background-color: transparent; /* Ensures the background stays clear */
 }
 
 .navHome a:hover {
@@ -47,20 +48,20 @@
   border-bottom: 3px solid #b5b5b5; 
 }
 
-
 .hamburger {
   display: none; 
-  font-size: 30px;
+  font-size: 25px;
   background: none;
   border: none;
   cursor: pointer;
+  color: black; /* Ensure the hamburger icon is visible */
 }
 
 @media (min-width: 769px) and (max-width: 920px) {
   .headerbox {
     flex-direction: column; 
     align-items: flex-start;
-    padding: 0; /* Eliminar padding extra */
+    padding: 0; 
     width: 100%;
   }
 
@@ -77,29 +78,23 @@
     flex-direction: column;
     background-color: #fff;
     display: none;
-    padding: 0; /* Eliminar cualquier padding en el contenedor */
+    padding: 0; 
     margin: 0;
   }
 
   .navHome.open {
     display: flex;
     width: 50%;
-    border-bottom-right-radius: 15px; /* Ajusta el valor según el tamaño deseado */
-}
-  .navHome a:hover {
-  border-bottom-right-radius: 15px; /* Ajusta el valor según el tamaño deseado */
-  }
-  .navHome a {
-    border-bottom-right-radius: 15px; /* Ajusta el valor según el tamaño deseado */
+    border-bottom-right-radius: 15px; 
   }
 
   .navHome a {
     padding: 10px;
     text-align: left;
-    width: 100%; /* Asegura que los enlaces ocupen todo el ancho */
+    width: 100%; 
     border-bottom: 1px solid #ddd;
     margin: 0;
-    box-sizing: border-box; /* Asegúrate de que el padding no afecte el ancho total del enlace */
+    box-sizing: border-box; 
   }
 
   .logo {
@@ -111,14 +106,16 @@
   .hamburger {
     display: block;
   }
-
+  .video-alcop{
+    box-shadow: none;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
   .headerbox {
     flex-direction: column; 
     align-items: flex-start;
-    padding: 0; /* Eliminar padding extra */
+    padding: 0; 
     width: 100%;
   }
 
@@ -135,7 +132,7 @@
     flex-direction: column;
     background-color: #fff;
     display: none;
-    padding: 0; /* Eliminar cualquier padding en el contenedor */
+    padding: 0; 
     margin: 0;
   }
 
@@ -143,22 +140,16 @@
     display: flex;
     width: 50%;
     height: auto;
-    border-bottom-right-radius: 15px; /* Ajusta el valor según el tamaño deseado */
-}
-  .navHome a:hover {
-  border-bottom-right-radius: 15px; /* Ajusta el valor según el tamaño deseado */
-  }
-  .navHome a {
-    border-bottom-right-radius: 15px; /* Ajusta el valor según el tamaño deseado */
+    border-bottom-right-radius: 15px; 
   }
 
   .navHome a {
     padding: 10px;
     text-align: left;
-    width: 100%; /* Asegura que los enlaces ocupen todo el ancho */
+    width: 100%; 
     border-bottom: 1px solid #ddd;
     margin: 0;
-    box-sizing: border-box; /* Asegúrate de que el padding no afecte el ancho total del enlace */
+    box-sizing: border-box; 
   }
 
   .logo {
@@ -170,13 +161,13 @@
   .hamburger {
     display: block;
   }
-
 }
+
 @media (max-width: 480px) {
   .headerbox {
     flex-direction: column; 
     align-items: flex-start;
-    padding: 0; /* Eliminar padding extra */
+    padding: 0; 
     width: 100%;
   }
 
@@ -184,7 +175,7 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 0 10px; /* Un pequeño padding para asegurar que el logo y el botón no estén pegados al borde */
+    padding: 0 10px; 
   }
 
   .navHome {
@@ -193,7 +184,7 @@
     flex-direction: column;
     background-color: #fff;
     display: none;
-    padding: 0; /* Eliminar cualquier padding en el contenedor */
+    padding: 0; 
     margin: 0;
   }
 
@@ -206,10 +197,10 @@
   .navHome a {
     padding: 10px;
     text-align: left;
-    width: 100%; /* Asegura que los enlaces ocupen todo el ancho */
+    width: 100%; 
     border-bottom: 1px solid #ddd;
     margin: 0;
-    box-sizing: border-box; /* Asegúrate de que el padding no afecte el ancho total del enlace */
+    box-sizing: border-box; 
   }
 
   .logo {
@@ -221,4 +212,5 @@
   .hamburger {
     display: block;
   }
+
 }
