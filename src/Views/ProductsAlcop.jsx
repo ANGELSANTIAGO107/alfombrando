@@ -1,15 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './ProductsAlcop.css'; 
 import Header from "../Components/Header/Header";
 import Footer from "../Components/Footer/Footer";
 import { FaWhatsapp } from "react-icons/fa"; 
 
 const ProductsAlcop = () => {
+
+  // Hook para ejecutar la función cuando el componente se monta
+  useEffect(() => {
+    // Asegurarte de que la página esté en la parte superior al cargarse
+    window.scrollTo(0, 0);
+  }, []);  // El array vacío asegura que se ejecute solo una vez al cargar
+
   return (
     <>
       <Header />
       <div className="products-alcop">
-
         <div className="section-row">
           <div className="image-container">
             <video
@@ -43,7 +49,6 @@ const ProductsAlcop = () => {
           </div>
         </div>
 
-        {/* Tercera sección: Imágenes de esculturas */}
         <div className="section-row">
           <div className="image-container">
             <img
@@ -59,7 +64,6 @@ const ProductsAlcop = () => {
           </div>
         </div>
 
-        {/* Galería de esculturas */}
         <div className="sculpture-gallery">
           <div className="sculpture-info">
             <h2>Esculturas</h2>
@@ -69,20 +73,18 @@ const ProductsAlcop = () => {
           </div>
           
           <div className="gallery-grid">
-            {[
-              {
-                id: "1",
-                img: "/Images/ImagesProductsAlcop/Escultura1.jpg",
-              },
-              {
-                id: "2",
-                img: "/Images/ImagesProductsAlcop/Escultura2.jpeg",
-              },
-              {
-                id: "3",
-                img: "/Images/ImagesProductsAlcop/Escultura3.jpeg",
-              },
-            ].map((sculpture) => (
+            {[{
+              id: "1",
+              img: "/Images/ImagesProductsAlcop/Escultura1.jpg",
+            },
+            {
+              id: "2",
+              img: "/Images/ImagesProductsAlcop/Escultura2.jpeg",
+            },
+            {
+              id: "3",
+              img: "/Images/ImagesProductsAlcop/Escultura3.jpeg",
+            }].map((sculpture) => (
               <div key={sculpture.id} className="gallery-item">
                 <img
                   src={sculpture.img}

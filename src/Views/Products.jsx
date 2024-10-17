@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import Header from "../Components/Header/Header";
 import { ProductContextValues } from "../Context/ProductsContext";
 import Footer from "../Components/Footer/Footer";
@@ -8,6 +8,7 @@ import "./Products.css";
 function Products() {
   const context = useContext(ProductContextValues);
 
+  // Filtrar los productos según la categoría seleccionada
   const filteredProducts = context.dataProducts.filter(
     (product) => product.category === context.selectedCategory
   );
@@ -15,6 +16,11 @@ function Products() {
   const handleCategoryChange = (event) => {
     context.setSelectedCategory(event.target.value);
   };
+
+  // Hook para hacer scroll a la parte superior
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <>
@@ -52,7 +58,7 @@ function Products() {
                 <p>{product.description}</p>
               </div>
               <img
-                src="/Images/qrAlfombrando.jpg "
+                src="/Images/qrAlfombrando.jpg"
                 alt="Código QR para cotizar en WhatsApp"
                 className="qr-image"
               />
@@ -62,9 +68,9 @@ function Products() {
             </div>
           ))
         ) : (
-           <div>
-            <Error404/>
-            </div>
+          <div>
+            <Error404 />
+          </div>
         )}
       </div>
       <Footer />

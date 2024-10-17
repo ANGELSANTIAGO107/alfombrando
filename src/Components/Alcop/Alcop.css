@@ -98,6 +98,14 @@ button:hover {
     .logoAlcop {
         margin-top: 30px;
     }
+    .video-alcop {
+        box-shadow: none; 
+    }
+
+    .alcop-video {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Aplica sombra solo al video */
+        max-width: 278px;
+    }
 }
 /* Responsivo para pantallas pequeñas */
 @media (max-width: 768px) {
@@ -107,21 +115,16 @@ button:hover {
     }
 
     .video-alcop {
-        width: 100%; /* Ancho completo del video en pantallas pequeñas */
-        max-width: 400px; /* Limitar el tamaño máximo del video */
-        height: 350px; /* Reducir la altura para pantallas más pequeñas */
-        margin-right: 0; /* Eliminar margen derecho */
+        box-shadow: none; /* Elimina la sombra del contenedor en pantallas pequeñas */
     }
-    
+
     .alcop-video {
-        width: 100%; /* Ancho completo del video en pantallas pequeñas */
-        max-width: 400px; /* Limitar el tamaño máximo del video */
-        height: 350px; /* Reducir la altura para pantallas más pequeñas */
-        margin-right: 0; /* Eliminar margen derecho */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Aplica sombra solo al video */
+        max-width: 278px;
     }
 
     .map-section {
-        width: 100%; /* Ancho completo para la sección de información */
+        width: 100%; 
         align-items: center; /* Centrar contenido */
     }
 
