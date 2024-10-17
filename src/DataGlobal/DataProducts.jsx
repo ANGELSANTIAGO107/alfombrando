@@ -114,7 +114,7 @@ export const dataProduct = [
     image: "/Images/ImagesProducts/CortinasTradicionales.jpg",
     category: "Cortinas",
     description:
-      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
+      "Elegancia clásica que se adapta a cualquier ambiente. Las cortinas tradicionales te ofrecen control total sobre la luz, con un toque de estilo atemporal.",
   },
   {
     id: 14,
@@ -122,7 +122,7 @@ export const dataProduct = [
     image: "/Images/ImagesProducts/PanelJapones.jpg",
     category: "Cortinas",
     description:
-      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
+     "Un diseño minimalista que aporta sofisticación y modernidad. El panel japonés te permite regular la luz con líneas limpias y sencillas."
   },
   {
     id: 15,
@@ -130,7 +130,7 @@ export const dataProduct = [
     image: "/Images/ImagesProducts/SheerElegance.jpg",
     category: "Cortinas",
     description:
-      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
+      "Una mezcla perfecta de funcionalidad y lujo. Las cortinas SheerElegance brindan un delicado equilibrio entre transparencia y privacidad.",
   },
   {
     id: 16,
@@ -138,7 +138,7 @@ export const dataProduct = [
     image: "/Images/ImagesProducts/Enrollable.jpg",
     category: "Cortinas",
     description:
-      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
+      "Prácticas y versátiles, las cortinas enrollables son ideales para un estilo de vida moderno, ofreciendo control de luz sin sacrificar el diseño.",
   },
   {
     id: 17,
@@ -146,7 +146,7 @@ export const dataProduct = [
     image: "/Images/ImagesProducts/MacroMadera.png",
     category: "Cortinas",
     description:
-      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
+     "La calidez de la madera en tus ventanas. MacroMaderas combina durabilidad y estilo natural para un ambiente acogedor.",
   },
   {
     id: 18,
@@ -154,7 +154,7 @@ export const dataProduct = [
     image: "/Images/ImagesProducts/PersianasVerticales.jpg",
     category: "Cortinas",
     description:
-      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
+      "Ideales para grandes ventanas o puertas corredizas, las persianas verticales te permiten ajustar la luz con facilidad y elegancia.",
   },
   {
     id: 19,
@@ -162,7 +162,7 @@ export const dataProduct = [
     image: "/Images/ImagesProducts/MacroAluminio.jpg",
     category: "Cortinas",
     description:
-      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
+      "Durabilidad y diseño en uno. MacroAluminios ofrece un toque moderno con la resistencia del aluminio para cualquier espacio.",
   },
   {
     id: 20,
@@ -170,7 +170,7 @@ export const dataProduct = [
     image: "/Images/ImagesProducts/MiniPersianas.jpg",
     category: "Cortinas",
     description:
-      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
+     "Compactas y funcionales, las MiniPersianas son perfectas para ventanas pequeñas, manteniendo la privacidad sin perder estilo.",
   },
   {
     id: 21,
@@ -178,7 +178,7 @@ export const dataProduct = [
     image: "/Images/ImagesProducts/SheerVertesse.jpg",
     category: "Cortinas",
     description:
-      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
+     "Textura suave y sofisticada que se adapta a cualquier espacio. Sheer Vertesse ofrece un control de luz elegante y moderno.",
   },
   {
     id: 22,
@@ -186,7 +186,7 @@ export const dataProduct = [
     image: "/Images/ImagesProducts/Duette.jpg",
     category: "Cortinas",
     description:
-      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
+      "Innovación en control de temperatura y luz. Las Cortinas Duette no solo embellecen, sino que también mejoran la eficiencia energética de tu hogar.",
   },
   {
     id: 23,
@@ -194,7 +194,7 @@ export const dataProduct = [
     image: "/Images/ImagesProducts/SheerRoyale.jpg",
     category: "Cortinas",
     description:
-      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
+      "Lujo y suavidad se combinan en las Cortinas SheerRoyale, ofreciendo una experiencia de luz difusa y privacidad excepcional.",
   },
   {
     id: 24,
@@ -202,7 +202,7 @@ export const dataProduct = [
     image: "/Images/ImagesProducts/ShutterBox.jpg",
     category: "Cortinas",
     description:
-      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
+      "Con un diseño robusto y moderno, Shutterbox añade un toque de sofisticación y control preciso de luz y ventilación.",
   },
   {
     id: 25,
@@ -210,7 +210,7 @@ export const dataProduct = [
     image: "/Images/ImagesProducts/PersianasImpresas.jpg",
     category: "Cortinas",
     description:
-      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
+      "Creatividad sin límites. Las persianas impresas te permiten personalizar tus espacios con diseños únicos y coloridos.",
   },
   {
     id: 26,
@@ -218,7 +218,7 @@ export const dataProduct = [
     videoUrl: "/video/PersianasMotorizadas.mp4",
     category: "Cortinas",
     description:
-      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
+      "La última tecnología en comodidad y estilo. Controla tus persianas con solo un botón para una experiencia sin esfuerzo.",
   },
   {
     id: 27,
@@ -226,7 +226,7 @@ export const dataProduct = [
     image: "/Images/ImagesProducts/CortinasRomanas.jpg",
     category: "Cortinas",
     description:
-      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
+      "Un toque clásico con una funcionalidad moderna. Las cortinas romanas agregan textura y elegancia a cualquier habitación.",
   },
   {
     id: 28,
@@ -234,7 +234,7 @@ export const dataProduct = [
     image: "/Images/ImagesProducts/Mosquiteros.jpg",
     category: "Cortinas",
     description:
-      "Controla la luz y la privacidad con estilo. ¡Persianas para todos los gustos y necesidades!",
+     "Protege tu hogar de insectos sin sacrificar la ventilación y la luz natural. Mosquiteros de diseño funcional y discreto.",
   },
   // Categoría: Panel Wall
   {
@@ -277,15 +277,15 @@ export const dataProduct = [
     image: "/Images/ImagesProducts/PisosLaminados.jpg",
     category: "Pisos",
     description:
-      "Dale un nuevo look a tus espacios con nuestros pisos de alta calidad. ¡Durabilidad, belleza y diseños para todos los gustos!",
+      "Elegancia y resistencia en cada paso. Los pisos laminados combinan un diseño sofisticado con una instalación fácil, perfectos para transformar cualquier espacio con un toque moderno.",
   },
   {
     id: 34,
     name: "Pisos SPC",
-    image: "/Images/ImagesProducts/PisosSpc.jpg",
+    image: "/Images/ImagesProducts/PisosSPC.jpg",
     category: "Pisos",
     description:
-      "Dale un nuevo look a tus espacios con nuestros pisos de alta calidad. ¡Durabilidad, belleza y diseños para todos los gustos!",
+      "Durabilidad máxima y estilo contemporáneo. Los pisos SPC (Stone Plastic Composite) ofrecen una resistencia superior al agua y al desgaste, ideales para áreas de alto tráfico.",
   },
   {
     id: 35,
@@ -293,7 +293,7 @@ export const dataProduct = [
     image: "/Images/ImagesProducts/PisosLaminadosPvc.jpeg",
     category: "Pisos",
     description:
-      "Dale un nuevo look a tus espacios con nuestros pisos de alta calidad. ¡Durabilidad, belleza y diseños para todos los gustos!",
+      "Funcionalidad y estética en uno. Los pisos de PVC son flexibles, resistentes a la humedad y fáciles de mantener, perfectos para un ambiente práctico y moderno.",
   },
   {
     id: 36,
@@ -301,7 +301,7 @@ export const dataProduct = [
     image: "/Images/ImagesProducts/PisosEnMaderaMaciza.jpg  ",
     category: "Pisos",
     description:
-      "Viste tus paredes con estilo y personalidad. ¡Papel de colgadura para todos los gustos y presupuestos!",
+      "El lujo natural de la madera maciza aporta calidez y durabilidad a tu hogar, con un acabado artesanal que resalta la belleza de cada veta.",
   },
   {
     id: 37,
@@ -309,7 +309,7 @@ export const dataProduct = [
     image: "/Images/ImagesProducts/PisosDeViniloEnRollo.webp",
     category: "Pisos",
     description:
-      "Viste tus paredes con estilo y personalidad. ¡Papel de colgadura para todos los gustos y presupuestos!",
+      "Versatilidad y confort. Los pisos de vinilo en rollo son una opción económica y fácil de instalar, ofreciendo una superficie suave y resistente, ideal para cualquier habitación.",
   },
   // Categoría: Grama Sintética
   {
@@ -318,7 +318,7 @@ export const dataProduct = [
     image: "/Images/ImagesProducts/GramaSinteticaColores.jpg",
     category: "GramaSintetica",
     description:
-      "Disfruta de un jardín verde todo el año sin las molestias del mantenimiento. ¡Grama sintética de alta calidad!",
+      "Dale vida a tus espacios con grama sintética de colores vibrantes, ideal para proyectos creativos y áreas recreativas.",
   },
   {
     id: 39,
@@ -326,7 +326,7 @@ export const dataProduct = [
     image: "/Images/ImagesProducts/GramaSinteticaPaisajismo.jpg",
     category: "GramaSintetica",
     description:
-      "Disfruta de un jardín verde todo el año sin las molestias del mantenimiento. ¡Grama sintética de alta calidad!",
+      "Perfecta para paisajismo, esta grama sintética brinda un verde natural todo el año sin necesidad de mantenimiento.",
   },
   {
     id: 40,
@@ -334,7 +334,7 @@ export const dataProduct = [
     image: "/Images/ImagesProducts/GramaSinteticaPunzonada.jpg",
     category: "GramaSintetica",
     description:
-      "Disfruta de un jardín verde todo el año sin las molestias del mantenimiento. ¡Grama sintética de alta calidad!",
+      "Resistente y duradera, ideal para zonas de alto tráfico, manteniendo su apariencia impecable con poco cuidado.",
   },
   // Categoría: Muebles de Exterior
   {
@@ -343,7 +343,7 @@ export const dataProduct = [
     image: "/Images/ImagesProducts/ComedoresExterior.jpg",
     category: "MueblesExterior",
     description:
-      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
+      "Disfruta de comidas al aire libre con estilo y comodidad. Nuestros comedores de exterior son resistentes y elegantes, perfectos para cualquier jardín o terraza.",
   },
   {
     id: 42,
@@ -351,7 +351,7 @@ export const dataProduct = [
     image: "/Images/ImagesProducts/Salas.jpg",
     category: "MueblesExterior",
     description:
-      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
+      "Relájate en tu sala exterior con muebles acogedores y duraderos. Diseño y confort para disfrutar del aire libre con total comodidad.",
   },
   {
     id: 43,
@@ -359,7 +359,7 @@ export const dataProduct = [
     image: "/Images/ImagesProducts/Salas.jpg",
     category: "MueblesExterior",
     description:
-      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
+      "Ideal para espacios pequeños, el set de balcón combina estilo y funcionalidad, creando un ambiente acogedor en exteriores reducidos.",
   },
   {
     id: 44,
@@ -367,7 +367,7 @@ export const dataProduct = [
     image: "/Images/ImagesProducts/Asoleadoras.jpg",
     category: "MueblesExterior",
     description:
-      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
+      "Relájate bajo el sol con nuestros asoleadores, diseñados para ofrecer máxima comodidad y resistencia en exteriores.",
   },
   {
     id: 45,
@@ -375,7 +375,7 @@ export const dataProduct = [
     image: "/Images/ImagesProducts/Pagodas.jpg",
     category: "MueblesExterior",
     description:
-      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
+      "Agrega sombra y elegancia a tus espacios exteriores con nuestras pagodas, perfectas para protegerte del sol mientras disfrutas al aire libre.",
   },
   {
     id: 46,
@@ -383,7 +383,7 @@ export const dataProduct = [
     image: "/Images/ImagesProducts/ToldosDeBrazos.jpg",
     category: "MueblesExterior",
     description:
-      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
+      "Protección ajustable para tus espacios. Los toldos de brazos ofrecen sombra flexible y durabilidad en cualquier clima.",
   },
   {
     id: 48,
@@ -391,7 +391,7 @@ export const dataProduct = [
     image: "/Images/ImagesProducts/ToldosVerticales.jpg",
     category: "MueblesExterior",
     description:
-      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
+      "Sombrea y protege tu espacio con estilo. Los toldos verticales son una solución elegante y práctica para controlar la luz y la privacidad.",
   },
   {
     id: 49,
@@ -399,7 +399,7 @@ export const dataProduct = [
     image: "/Images/ImagesProducts/PergolasRomanas.jpg",
     category: "MueblesExterior",
     description:
-      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
+      "Elegancia y funcionalidad se combinan en nuestras pérgolas romanas, brindando sombra y estilo a tus espacios exteriores.",
   },
   {
     id: 50,
@@ -407,7 +407,7 @@ export const dataProduct = [
     image: "/Images/ImagesProducts/Sombrillas.jpg",
     category: "MueblesExterior",
     description:
-      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
+      "Disfruta del aire libre con la protección de nuestras sombrillas, diseñadas para ofrecer sombra y estilo en cualquier área.",
   },
   {
     id: 51,
@@ -415,7 +415,7 @@ export const dataProduct = [
     image: "/Images/ImagesProducts/ToldosDeDobleProteccion.jpg",
     category: "MueblesExterior",
     description:
-      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
+     "Máxima cobertura y estilo. Los toldos de doble proyección te ofrecen sombra ajustable para grandes áreas exteriores.",
   },
   {
     id: 52,
@@ -423,7 +423,7 @@ export const dataProduct = [
     image: "/Images/ImagesProducts/Z-Box.jpg",
     category: "MueblesExterior",
     description:
-      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
+      "Controla la luz y el viento con nuestras persianas Z-Box, ideales para mantener confort en cualquier ambiente exterior.",
   },
   {
     id: 53,
@@ -439,7 +439,7 @@ export const dataProduct = [
     image: "/Images/ImagesProducts/SillasAuxiliares1.jpg",
     category: "MueblesExterior",
     description:
-      "Crea tu oasis perfecto en el exterior. ¡Muebles cómodos, resistentes y con estilo!",
+      "Prácticas y cómodas, las sillas auxiliares son el complemento perfecto para tu sala o comedor de exterior, ideales para relajarse.",
   },
   // Categoría: Accesorios
   {
