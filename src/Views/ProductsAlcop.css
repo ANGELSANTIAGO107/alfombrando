@@ -117,6 +117,28 @@
     width: 80%;
     font-size: 14px;
 }
+
+.tooltip-text {
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    font-size: 10px; /* Tamaño de fuente más pequeño */
+    text-align: center;
+    border-radius: 3px;
+    padding: 2px 5px; /* Reducir padding */
+    position: absolute;
+    z-index: 1;
+    top: 0; /* Ajusta la posición al lado izquierdo */
+    left: -110%; /* Mueve el tooltip a la izquierda */
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .whatsapp-float:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  }
+  
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
     .section-row {

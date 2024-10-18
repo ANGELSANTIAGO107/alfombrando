@@ -337,6 +337,7 @@ function ProductsAseo() {
         className="whatsapp-float"
       >
         <FaWhatsapp className="whatsapp-icon2" />
+        <span className="tooltip-text">Contacta con Alfombrando Aseo</span>
       </a>
     </>
   );

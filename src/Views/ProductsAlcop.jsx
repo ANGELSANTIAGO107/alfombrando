@@ -98,13 +98,15 @@ const ProductsAlcop = () => {
       </div>
       <Footer />
       <a
-        href="https://wa.me/573152762255"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="whatsapp-float"
-      >
-        <FaWhatsapp className="whatsapp-icon2" />
-      </a>
+  href="https://wa.me/573152762255"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="whatsapp-float"
+>
+  <FaWhatsapp className="whatsapp-icon2" />
+  <span className="tooltip-text">Contacta con Alcop</span>
+</a>
+
     </>
   );
 };
