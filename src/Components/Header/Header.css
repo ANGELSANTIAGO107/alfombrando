@@ -49,6 +49,7 @@
 }
 
 .hamburger {
+  margin-top: 0;
   display: none; 
   font-size: 25px;
   background: none;
