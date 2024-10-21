@@ -356,7 +356,7 @@ export const dataProduct = [
   {
     id: 43,
     name: "Set de balcón",
-    image: "/Images/ImagesProducts/Salas.jpg",
+    image: "/Images/ImagesProducts/SetDeBalcon.jpg",
     category: "MueblesExterior",
     description:
       "Ideal para espacios pequeños, el set de balcón combina estilo y funcionalidad, creando un ambiente acogedor en exteriores reducidos.",

@@ -9,8 +9,8 @@ function Redes() {
       <div className="redes-principal" id="redes">
         <div className="left-box">
           <h1 className="h1-redes">
-            Únete a Nuestras Redes Para Enterarte
-            <br /> De Lo Último En Diseño De Interiores{" "}
+            Únete a nuestras redes para enterarte
+            <br /> de lo último en diseño de interiores{" "}
           </h1>
         </div>
         <div className="right-box">

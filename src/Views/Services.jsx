@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom";
+import { useEffect } from "react"; // Importar useEffect
 import { DataServices } from "../DataGlobal/DataServices";
 import Header from "../Components/Header/Header";
 import Footer from "../Components/Footer/Footer";
@@ -9,6 +10,12 @@ function Services() {
   const selectedService = DataServices.find(
     (service) => service.id === parseInt(id)
   ); // Buscar el servicio por id
+
+  // Hook para ejecutar la función cuando el componente se monta
+  useEffect(() => {
+    // Asegurarte de que la página esté en la parte superior al cargarse
+    window.scrollTo(0, 0);
+  }, []);  // El array vacío asegura que se ejecute solo una vez al cargar
 
   return (
     <>
