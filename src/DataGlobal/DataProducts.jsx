@@ -38,7 +38,7 @@ export const dataProduct = [
     image: "/Images/ImagesProducts/AlfombrasModulares.jpg",
     category: "Alfombras",
     description:
-      "Convierte cada paso en una experiencia única. Nuestras alfombras te ofrecen suavidad, estilo y confort en cada rincón de tu hogar",
+      "Convierte cada paso en una experiencia única. Nuestras alfombras te ofrecen suavidad, estilo y confort en cada rincón de tu hogar o empresa.",
   },
   {
     id: 6,
@@ -105,7 +105,7 @@ export const dataProduct = [
     image: "/Images/ImagesProducts/CojinesDeExterior.jpg",
     category: "Cojines",
     description:
-      "Viste tus paredes con estilo y personalidad. ¡Papel de colgadura para todos los gustos y presupuestos!",
+      "Los cojines de exterior son ideales para dar comodidad y estilo a tus espacios al aire libre, resistiendo las inclemencias del tiempo y manteniendo su frescura.",
   },
   // Categoría: Cortinas
   {
@@ -379,7 +379,7 @@ export const dataProduct = [
   },
   {
     id: 46,
-    name: "Toldos De Brazos",
+    name: "Toldos de brazos",
     image: "/Images/ImagesProducts/ToldosDeBrazos.jpg",
     category: "MueblesExterior",
     description:
@@ -395,7 +395,7 @@ export const dataProduct = [
   },
   {
     id: 49,
-    name: "Pergolas Romanas",
+    name: "Pérgolas Romanas",
     image: "/Images/ImagesProducts/PergolasRomanas.jpg",
     category: "MueblesExterior",
     description:
@@ -411,7 +411,7 @@ export const dataProduct = [
   },
   {
     id: 51,
-    name: "Toldos de DobleProyección",
+    name: "Toldos de doble proyección",
     image: "/Images/ImagesProducts/ToldosDeDobleProteccion.jpg",
     category: "MueblesExterior",
     description:
@@ -444,7 +444,7 @@ export const dataProduct = [
   // Categoría: Accesorios
   {
     id: 55,
-    name: "MaterosJaure",
+    name: "Materos Jaure",
     image: "/Images/ImagesProducts/MaterosJaure.jpg",
     category: "Accesorios",
     description:
@@ -452,7 +452,7 @@ export const dataProduct = [
   },
   {
     id: 56,
-    name: "MaterosMae",
+    name: "Materos Mae",
     image: "/Images/ImagesProducts/MaterosMae.jpg",
     category: "Accesorios",
     description:
@@ -460,7 +460,7 @@ export const dataProduct = [
   },
   {
     id: 57,
-    name: "MaterosSaka",
+    name: "Materos Saka",
     image: "/Images/ImagesProducts/MaterosSaka.jpg",
     category: "Accesorios",
     description:
